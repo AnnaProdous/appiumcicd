@@ -3,6 +3,8 @@ package com.qa.pages;
 import java.util.HashMap;
 import java.util.Map;
 
+import io.appium.java_client.AppiumDriver;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -53,16 +55,5 @@ public class ProductsPage extends MenuPage {
  * public ProductsPage pressBackToProductBtn() {
  * System.out.println("navigate back to products page "); click
  * (backToProductBtn); return new ProductsPage(); }
- */
-
-
-/*
- * //IOS public SettingsPage pressSettingsBtn() {
- * System.out.println("press Settings button"); WebElement element =
- * driver.findElement(AppiumBy.accessibilityId("test-Menu"));
- * 
- * Map<String, Object> params = new HashMap<>(); params.put("x", 49);
- * params.put("y", 68); driver.executeScript("mobile: tap", params); return new
- * SettingsPage(); }
  */
 }

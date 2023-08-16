@@ -16,6 +16,7 @@ import io.appium.java_client.screenrecording.CanRecordScreen;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.ThreadContext;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebElement;
@@ -46,6 +47,7 @@ public class BaseTest extends ExtentReport{
 	protected static ThreadLocal <AppiumDriver> driver = new ThreadLocal<AppiumDriver>();
 	protected static ThreadLocal <Properties> props = new ThreadLocal<Properties>();
 	protected static ThreadLocal <HashMap<String, String>> strings = new ThreadLocal<HashMap<String, String>>();
+	protected static ThreadLocal<JavascriptExecutor> jsExecutorThreadLocal = new ThreadLocal<JavascriptExecutor>();
 	protected static ThreadLocal <String> platformName = new ThreadLocal<String>();
 	protected static ThreadLocal <String> platformVersion = new ThreadLocal<String>();
 	protected static ThreadLocal <String> dateTime = new ThreadLocal<String>();
@@ -248,6 +250,8 @@ public class BaseTest extends ExtentReport{
 				default:
 					throw new Exception("Invalid platform! - " + platformName);
 			}
+			JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+			jsExecutorThreadLocal.set(jsExecutor);
 			setDriver(driver);
 			utils.log().info("driver initialized: " + driver);
 		} catch (Exception e) {
@@ -298,6 +302,10 @@ public class BaseTest extends ExtentReport{
 	public String getAttribute(WebElement e, String attribute) {
 		waitForVisibility(e);
 		return e.getAttribute(attribute);
+	}
+
+	public JavascriptExecutor getJsExecutor() {
+		return jsExecutorThreadLocal.get();
 	}
 
 	public String getText(WebElement e, String msg) {

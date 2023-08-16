@@ -4,6 +4,9 @@ import java.io.InputStream;
 import java.lang.reflect.Method;
 import java.sql.Driver;
 
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.qa.reports.ExtentReport;
 import com.qa.utils.TestUtils;
 import org.json.JSONObject;
 import org.json.JSONTokener;
@@ -67,15 +70,21 @@ public class ProductTests extends  BaseTest{
   
   @BeforeMethod
   public void beforeMethod(Method m) {
+	  ExtentTest test = ExtentReport.startTest("Test Setup: " + m.getName(), "Setting up test: " + m.getName());
 	  utils.log().info("\n" + "****** starting test:" + m.getName() + "******" + "\n");
+
 	  loginPage = new LoginPage();
-	  productsPage = loginPage.login(loginUsers.getJSONObject("validUser").getString("username"),
-			  loginUsers.getJSONObject("validUser").getString("password"));
+	  productsPage = loginPage.login(
+			  loginUsers.getJSONObject("validUser").getString("username"),
+			  loginUsers.getJSONObject("validUser").getString("password")
+	  );
+	  menuPage = new MenuPage();
   }
 
   @AfterMethod
   public void afterMethod() {
-	  settingsPage = productsPage.pressSettingsBtn();
+//	  settingsPage = productsPage.pressSettingsBtn();
+	  settingsPage = menuPage.pressSettingsBtn();
 	  loginPage = settingsPage.pressLogoutBtn();
   }
 
@@ -94,12 +103,13 @@ public class ProductTests extends  BaseTest{
 
 	@Test
 	public void validateProductOnProductDetailsPage() {
+		ExtentTest test = ExtentReport.startTest("validateProductOnProductDetailsPage", "Test to validate product on product details page.");
 		SoftAssert sa = new SoftAssert();
 
 		productDetailsPage = productsPage.pressSLBTitle();
 
 		String SLBTitle = productDetailsPage.getSLBTitle();
-		sa.assertEquals(SLBTitle, getStrings().get("product_details_page_slb_title"));
+		sa.assertEquals(SLBTitle, getStrings().get("products_details_slb_title"));
 
 		if(getPlatformName().equalsIgnoreCase("Android")) {
 			String SLBPrice = productDetailsPage.scrollToSLBPriceAndGetSLBPrice();
@@ -107,7 +117,7 @@ public class ProductTests extends  BaseTest{
 		}
 		if(getPlatformName().equalsIgnoreCase("iOS")) {
 			String SLBTxt = productDetailsPage.getSLBTxt();
-			sa.assertEquals(SLBTxt, getStrings().get("product_details_page_slb_txt"));
+			sa.assertEquals(SLBTxt, getStrings().get("products_details_slb_txt"));
 
 			productDetailsPage.scrollPage();
 			sa.assertTrue(productDetailsPage.isAddToCartBtnDisplayed());

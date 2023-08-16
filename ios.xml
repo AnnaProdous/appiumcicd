@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="false" name="Suite">
-	<test name = "Pixel_5">
+	<test name = "iPhone 14 Pro Max">
 	<listeners>
 		<listener class-name="com.qa.listeners.TestListener"/>
 	</listeners>
@@ -12,8 +12,8 @@
 		<parameter name="wdaLocalPort" value="10001"/>
 		<parameter name="webkitDebugProxyPort" value="11001"/>
 		<classes>
-			<class name="com.qa.tests.LoginTests"/>
+		<!--	<class name="com.qa.tests.LoginTests"/>-->
+			<class name="com.qa.tests.ProductTests"/>
 		</classes>
-			<!--<class name="com.qa.tests.ProductTests"/>-->
   </test> <!-- Test -->
 </suite> <!-- Suite -->
