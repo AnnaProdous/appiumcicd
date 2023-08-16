@@ -136,3 +136,106 @@
 
 [logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:19:03.996 BaseTest:282 - press Settings button
 [logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:19:22.195 BaseTest:153 - Appium server stopped
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:30:37.915 BaseTest:197 - log path: logs/iOS_iPhone 14 Pro Max
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:30:37.957 BaseTest:204 - load config.properties
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:30:37.961 BaseTest:209 - load strings/strings.xml
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:30:37.981 BaseTest:241 - appUrl is/Users/annprodous/Documents/git/appiumcicd/src/test/resources/app/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:30:45.958 BaseTest:252 - driver initialized: IOSDriver:  on IOS (d8bc51c3-8f02-4b86-856a-e714628645ba)
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:30:49.143 LoginTests:65 - 
+****** starting test:invalidPassword******
+
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:30:52.130 BaseTest:293 - login with standard_user
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:30:54.503 BaseTest:293 - password is invalidpassword
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:30:55.464 BaseTest:282 - press login button
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:30:57.253 BaseTest:313 - error text is - Username and password do not match any user in this service.
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:30:58.172 LoginTests:65 - 
+****** starting test:invalidUserName******
+
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:31:00.392 BaseTest:293 - login with invalidusername
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:31:02.998 BaseTest:293 - password is secret_sauce
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:31:03.846 BaseTest:282 - press login button
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:31:05.406 BaseTest:313 - error text is - Username and password do not match any user in this service.
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:31:06.300 LoginTests:65 - 
+****** starting test:successfulLogin******
+
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:31:08.588 BaseTest:293 - login with standard_user
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:31:11.161 BaseTest:293 - password is secret_sauce
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:31:12.023 BaseTest:282 - press login button
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:31:14.213 BaseTest:313 - product page title is - PRODUCTS
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:31:17.980 ProductTests:70 - 
+****** starting test:validateProductOnProductDetailsPage******
+
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:31:20.408 BaseTest:293 - login with standard_user
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:31:22.660 BaseTest:293 - password is secret_sauce
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:31:23.498 BaseTest:282 - press login button
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:31:25.081 BaseTest:282 - press SLB tile link
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:31:26.773 BaseTest:313 - title is - Sauce Labs Backpack
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:31:27.371 BaseTest:313 - txt is - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[logs/iOS_iPhone 14 Pro Max ERROR] 2023-08-16 15:31:34.423 TestListener:34 - java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Sauce Labs Backpack],
+	expected [null] but found [carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at com.qa.tests.ProductTests.validateProductOnProductDetailsPage(ProductTests.java:115)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:31:35.072 BaseTest:282 - press Settings button
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:31:53.207 BaseTest:153 - Appium server stopped
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:38:36.550 BaseTest:197 - log path: logs/iOS_iPhone 14 Pro Max
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:38:36.590 BaseTest:204 - load config.properties
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:38:36.594 BaseTest:209 - load strings/strings.xml
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:38:36.624 BaseTest:241 - appUrl is/Users/annprodous/Documents/git/appiumcicd/src/test/resources/app/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:39:34.288 BaseTest:252 - driver initialized: IOSDriver:  on IOS (6baf7d0b-2ea0-4d65-b80b-95d823bcaf63)
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:39:37.539 LoginTests:65 - 
+****** starting test:invalidPassword******
+
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:39:40.458 BaseTest:293 - login with standard_user
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:39:42.858 BaseTest:293 - password is invalidpassword
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:39:43.815 BaseTest:282 - press login button
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:39:45.577 BaseTest:313 - error text is - Username and password do not match any user in this service.
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:39:46.483 LoginTests:65 - 
+****** starting test:invalidUserName******
+
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:39:48.731 BaseTest:293 - login with invalidusername
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:39:51.322 BaseTest:293 - password is secret_sauce
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:39:52.172 BaseTest:282 - press login button
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:39:53.757 BaseTest:313 - error text is - Username and password do not match any user in this service.
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:39:54.692 LoginTests:65 - 
+****** starting test:successfulLogin******
+
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:39:56.855 BaseTest:293 - login with standard_user
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:39:59.234 BaseTest:293 - password is secret_sauce
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:40:00.088 BaseTest:282 - press login button
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:40:02.220 BaseTest:313 - product page title is - PRODUCTS
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 15:40:07.298 BaseTest:153 - Appium server stopped
