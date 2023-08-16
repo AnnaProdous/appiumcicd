@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="25.916" tests="22" errors="0" skipped="20" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="90.535" tests="10" errors="0" skipped="5" failures="2">
   <properties>
     <property name="surefire.suiteXmlFiles" value="ios.xml"/>
     <property name="java.specification.version" value="15"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/annprodous/TDDFrameworkAlt/target/test-classes:/Users/annprodous/TDDFrameworkAlt/target/classes:/Users/annprodous/.m2/repository/io/appium/java-client/8.5.1/java-client-8.5.1.jar:/Users/annprodous/.m2/repository/org/seleniumhq/selenium/selenium-api/4.11.0/selenium-api-4.11.0.jar:/Users/annprodous/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.11.0/selenium-remote-driver-4.11.0.jar:/Users/annprodous/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/annprodous/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/annprodous/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/annprodous/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/annprodous/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/annprodous/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/annprodous/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/annprodous/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/annprodous/.m2/repository/io/netty/netty-buffer/4.1.92.Final/netty-buffer-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-codec-http/4.1.92.Final/netty-codec-http-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-codec/4.1.92.Final/netty-codec-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-handler/4.1.92.Final/netty-handler-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-common/4.1.92.Final/netty-common-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.92.Final/netty-transport-classes-epoll-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.92.Final/netty-transport-classes-kqueue-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-native-epoll/4.1.92.Final/netty-transport-native-epoll-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.92.Final/netty-transport-native-kqueue-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.92.Final/netty-transport-native-unix-common-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport/4.1.92.Final/netty-transport-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-resolver/4.1.92.Final/netty-resolver-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-api/1.26.0/opentelemetry-api-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-context/1.26.0/opentelemetry-context-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.26.0/opentelemetry-exporter-logging-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.26.0/opentelemetry-sdk-metrics-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.26.0-alpha/opentelemetry-extension-incubator-1.26.0-alpha.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.26.0-alpha/opentelemetry-sdk-logs-1.26.0-alpha.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.26.0-alpha/opentelemetry-api-logs-1.26.0-alpha.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.26.0-alpha/opentelemetry-api-events-1.26.0-alpha.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.26.0/opentelemetry-sdk-common-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.26.0/opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.26.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.26.0/opentelemetry-sdk-trace-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.26.0/opentelemetry-sdk-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.26.0-alpha/opentelemetry-semconv-1.26.0-alpha.jar:/Users/annprodous/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar:/Users/annprodous/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/annprodous/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/annprodous/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/annprodous/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/annprodous/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/annprodous/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/annprodous/.m2/repository/org/seleniumhq/selenium/selenium-http/4.11.0/selenium-http-4.11.0.jar:/Users/annprodous/.m2/repository/dev/failsafe/failsafe/3.3.1/failsafe-3.3.1.jar:/Users/annprodous/.m2/repository/org/seleniumhq/selenium/selenium-json/4.11.0/selenium-json-4.11.0.jar:/Users/annprodous/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.11.0/selenium-manager-4.11.0.jar:/Users/annprodous/.m2/repository/org/seleniumhq/selenium/selenium-support/4.11.0/selenium-support-4.11.0.jar:/Users/annprodous/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/annprodous/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/annprodous/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/annprodous/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/annprodous/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/annprodous/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/annprodous/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/annprodous/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/annprodous/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/annprodous/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/annprodous/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/annprodous/.m2/repository/org/slf4j/slf4j-nop/2.0.7/slf4j-nop-2.0.7.jar:/Users/annprodous/.m2/repository/org/json/json/20230618/json-20230618.jar:/Users/annprodous/.m2/repository/org/apache/logging/log4j/log4j-core/3.0.0-alpha1/log4j-core-3.0.0-alpha1.jar:/Users/annprodous/.m2/repository/org/apache/logging/log4j/log4j-plugins/3.0.0-alpha1/log4j-plugins-3.0.0-alpha1.jar:/Users/annprodous/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/Users/annprodous/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/Users/annprodous/.m2/repository/com/fasterxml/woodstox/woodstox-core/6.5.0/woodstox-core-6.5.0.jar:/Users/annprodous/.m2/repository/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar:/Users/annprodous/.m2/repository/org/apache/logging/log4j/log4j-api/3.0.0-alpha1/log4j-api-3.0.0-alpha1.jar:/Users/annprodous/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar:/Users/annprodous/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/annprodous/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/annprodous/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/annprodous/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/annprodous/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/annprodous/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:"/>
+    <property name="java.class.path" value="/Users/annprodous/Documents/git/appiumcicd/target/test-classes:/Users/annprodous/Documents/git/appiumcicd/target/classes:/Users/annprodous/.m2/repository/io/appium/java-client/8.5.1/java-client-8.5.1.jar:/Users/annprodous/.m2/repository/org/seleniumhq/selenium/selenium-api/4.11.0/selenium-api-4.11.0.jar:/Users/annprodous/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.11.0/selenium-remote-driver-4.11.0.jar:/Users/annprodous/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/annprodous/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/annprodous/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/annprodous/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/annprodous/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/annprodous/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/annprodous/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/annprodous/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/annprodous/.m2/repository/io/netty/netty-buffer/4.1.92.Final/netty-buffer-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-codec-http/4.1.92.Final/netty-codec-http-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-codec/4.1.92.Final/netty-codec-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-handler/4.1.92.Final/netty-handler-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-common/4.1.92.Final/netty-common-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.92.Final/netty-transport-classes-epoll-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.92.Final/netty-transport-classes-kqueue-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-native-epoll/4.1.92.Final/netty-transport-native-epoll-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.92.Final/netty-transport-native-kqueue-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.92.Final/netty-transport-native-unix-common-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport/4.1.92.Final/netty-transport-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-resolver/4.1.92.Final/netty-resolver-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-api/1.26.0/opentelemetry-api-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-context/1.26.0/opentelemetry-context-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.26.0/opentelemetry-exporter-logging-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.26.0/opentelemetry-sdk-metrics-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.26.0-alpha/opentelemetry-extension-incubator-1.26.0-alpha.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.26.0-alpha/opentelemetry-sdk-logs-1.26.0-alpha.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.26.0-alpha/opentelemetry-api-logs-1.26.0-alpha.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.26.0-alpha/opentelemetry-api-events-1.26.0-alpha.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.26.0/opentelemetry-sdk-common-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.26.0/opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.26.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.26.0/opentelemetry-sdk-trace-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.26.0/opentelemetry-sdk-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.26.0-alpha/opentelemetry-semconv-1.26.0-alpha.jar:/Users/annprodous/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar:/Users/annprodous/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/annprodous/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/annprodous/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/annprodous/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/annprodous/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/annprodous/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/annprodous/.m2/repository/org/seleniumhq/selenium/selenium-http/4.11.0/selenium-http-4.11.0.jar:/Users/annprodous/.m2/repository/dev/failsafe/failsafe/3.3.1/failsafe-3.3.1.jar:/Users/annprodous/.m2/repository/org/seleniumhq/selenium/selenium-json/4.11.0/selenium-json-4.11.0.jar:/Users/annprodous/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.11.0/selenium-manager-4.11.0.jar:/Users/annprodous/.m2/repository/org/seleniumhq/selenium/selenium-support/4.11.0/selenium-support-4.11.0.jar:/Users/annprodous/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/annprodous/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/annprodous/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/annprodous/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/annprodous/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/annprodous/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/annprodous/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/annprodous/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/annprodous/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/annprodous/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/annprodous/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/annprodous/.m2/repository/org/slf4j/slf4j-nop/2.0.7/slf4j-nop-2.0.7.jar:/Users/annprodous/.m2/repository/org/json/json/20230618/json-20230618.jar:/Users/annprodous/.m2/repository/org/apache/logging/log4j/log4j-core/3.0.0-alpha1/log4j-core-3.0.0-alpha1.jar:/Users/annprodous/.m2/repository/org/apache/logging/log4j/log4j-plugins/3.0.0-alpha1/log4j-plugins-3.0.0-alpha1.jar:/Users/annprodous/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/Users/annprodous/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/Users/annprodous/.m2/repository/com/fasterxml/woodstox/woodstox-core/6.5.0/woodstox-core-6.5.0.jar:/Users/annprodous/.m2/repository/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar:/Users/annprodous/.m2/repository/org/apache/logging/log4j/log4j-api/3.0.0-alpha1/log4j-api-3.0.0-alpha1.jar:/Users/annprodous/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar:/Users/annprodous/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/annprodous/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/annprodous/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/annprodous/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/annprodous/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/annprodous/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
@@ -14,10 +14,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="UA"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/annprodous/TDDFrameworkAlt/target/surefire/surefirebooter-20230816142923062_3.jar /Users/annprodous/TDDFrameworkAlt/target/surefire 2023-08-16T14-29-22_885-jvmRun1 surefire-20230816142923062_1tmp surefire_0-20230816142923062_2tmp"/>
+    <property name="sun.java.command" value="/Users/annprodous/Documents/git/appiumcicd/target/surefire/surefirebooter-20230816151751430_3.jar /Users/annprodous/Documents/git/appiumcicd/target/surefire 2023-08-16T15-17-51_315-jvmRun1 surefire-20230816151751430_1tmp surefire_0-20230816151751430_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/annprodous/TDDFrameworkAlt/target/test-classes:/Users/annprodous/TDDFrameworkAlt/target/classes:/Users/annprodous/.m2/repository/io/appium/java-client/8.5.1/java-client-8.5.1.jar:/Users/annprodous/.m2/repository/org/seleniumhq/selenium/selenium-api/4.11.0/selenium-api-4.11.0.jar:/Users/annprodous/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.11.0/selenium-remote-driver-4.11.0.jar:/Users/annprodous/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/annprodous/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/annprodous/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/annprodous/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/annprodous/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/annprodous/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/annprodous/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/annprodous/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/annprodous/.m2/repository/io/netty/netty-buffer/4.1.92.Final/netty-buffer-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-codec-http/4.1.92.Final/netty-codec-http-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-codec/4.1.92.Final/netty-codec-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-handler/4.1.92.Final/netty-handler-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-common/4.1.92.Final/netty-common-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.92.Final/netty-transport-classes-epoll-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.92.Final/netty-transport-classes-kqueue-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-native-epoll/4.1.92.Final/netty-transport-native-epoll-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.92.Final/netty-transport-native-kqueue-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.92.Final/netty-transport-native-unix-common-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport/4.1.92.Final/netty-transport-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-resolver/4.1.92.Final/netty-resolver-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-api/1.26.0/opentelemetry-api-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-context/1.26.0/opentelemetry-context-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.26.0/opentelemetry-exporter-logging-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.26.0/opentelemetry-sdk-metrics-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.26.0-alpha/opentelemetry-extension-incubator-1.26.0-alpha.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.26.0-alpha/opentelemetry-sdk-logs-1.26.0-alpha.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.26.0-alpha/opentelemetry-api-logs-1.26.0-alpha.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.26.0-alpha/opentelemetry-api-events-1.26.0-alpha.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.26.0/opentelemetry-sdk-common-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.26.0/opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.26.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.26.0/opentelemetry-sdk-trace-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.26.0/opentelemetry-sdk-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.26.0-alpha/opentelemetry-semconv-1.26.0-alpha.jar:/Users/annprodous/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar:/Users/annprodous/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/annprodous/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/annprodous/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/annprodous/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/annprodous/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/annprodous/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/annprodous/.m2/repository/org/seleniumhq/selenium/selenium-http/4.11.0/selenium-http-4.11.0.jar:/Users/annprodous/.m2/repository/dev/failsafe/failsafe/3.3.1/failsafe-3.3.1.jar:/Users/annprodous/.m2/repository/org/seleniumhq/selenium/selenium-json/4.11.0/selenium-json-4.11.0.jar:/Users/annprodous/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.11.0/selenium-manager-4.11.0.jar:/Users/annprodous/.m2/repository/org/seleniumhq/selenium/selenium-support/4.11.0/selenium-support-4.11.0.jar:/Users/annprodous/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/annprodous/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/annprodous/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/annprodous/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/annprodous/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/annprodous/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/annprodous/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/annprodous/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/annprodous/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/annprodous/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/annprodous/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/annprodous/.m2/repository/org/slf4j/slf4j-nop/2.0.7/slf4j-nop-2.0.7.jar:/Users/annprodous/.m2/repository/org/json/json/20230618/json-20230618.jar:/Users/annprodous/.m2/repository/org/apache/logging/log4j/log4j-core/3.0.0-alpha1/log4j-core-3.0.0-alpha1.jar:/Users/annprodous/.m2/repository/org/apache/logging/log4j/log4j-plugins/3.0.0-alpha1/log4j-plugins-3.0.0-alpha1.jar:/Users/annprodous/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/Users/annprodous/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/Users/annprodous/.m2/repository/com/fasterxml/woodstox/woodstox-core/6.5.0/woodstox-core-6.5.0.jar:/Users/annprodous/.m2/repository/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar:/Users/annprodous/.m2/repository/org/apache/logging/log4j/log4j-api/3.0.0-alpha1/log4j-api-3.0.0-alpha1.jar:/Users/annprodous/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar:/Users/annprodous/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/annprodous/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/annprodous/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/annprodous/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/annprodous/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/annprodous/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/annprodous/Documents/git/appiumcicd/target/test-classes:/Users/annprodous/Documents/git/appiumcicd/target/classes:/Users/annprodous/.m2/repository/io/appium/java-client/8.5.1/java-client-8.5.1.jar:/Users/annprodous/.m2/repository/org/seleniumhq/selenium/selenium-api/4.11.0/selenium-api-4.11.0.jar:/Users/annprodous/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.11.0/selenium-remote-driver-4.11.0.jar:/Users/annprodous/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/annprodous/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/annprodous/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/annprodous/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/annprodous/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/annprodous/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/annprodous/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/annprodous/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/annprodous/.m2/repository/io/netty/netty-buffer/4.1.92.Final/netty-buffer-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-codec-http/4.1.92.Final/netty-codec-http-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-codec/4.1.92.Final/netty-codec-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-handler/4.1.92.Final/netty-handler-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-common/4.1.92.Final/netty-common-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.92.Final/netty-transport-classes-epoll-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.92.Final/netty-transport-classes-kqueue-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-native-epoll/4.1.92.Final/netty-transport-native-epoll-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.92.Final/netty-transport-native-kqueue-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.92.Final/netty-transport-native-unix-common-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport/4.1.92.Final/netty-transport-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-resolver/4.1.92.Final/netty-resolver-4.1.92.Final.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-api/1.26.0/opentelemetry-api-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-context/1.26.0/opentelemetry-context-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.26.0/opentelemetry-exporter-logging-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.26.0/opentelemetry-sdk-metrics-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.26.0-alpha/opentelemetry-extension-incubator-1.26.0-alpha.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.26.0-alpha/opentelemetry-sdk-logs-1.26.0-alpha.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.26.0-alpha/opentelemetry-api-logs-1.26.0-alpha.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.26.0-alpha/opentelemetry-api-events-1.26.0-alpha.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.26.0/opentelemetry-sdk-common-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.26.0/opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.26.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.26.0/opentelemetry-sdk-trace-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.26.0/opentelemetry-sdk-1.26.0.jar:/Users/annprodous/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.26.0-alpha/opentelemetry-semconv-1.26.0-alpha.jar:/Users/annprodous/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar:/Users/annprodous/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/annprodous/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/annprodous/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/annprodous/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/annprodous/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/annprodous/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/annprodous/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/annprodous/.m2/repository/org/seleniumhq/selenium/selenium-http/4.11.0/selenium-http-4.11.0.jar:/Users/annprodous/.m2/repository/dev/failsafe/failsafe/3.3.1/failsafe-3.3.1.jar:/Users/annprodous/.m2/repository/org/seleniumhq/selenium/selenium-json/4.11.0/selenium-json-4.11.0.jar:/Users/annprodous/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.11.0/selenium-manager-4.11.0.jar:/Users/annprodous/.m2/repository/org/seleniumhq/selenium/selenium-support/4.11.0/selenium-support-4.11.0.jar:/Users/annprodous/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/annprodous/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/annprodous/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/annprodous/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/annprodous/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/annprodous/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/annprodous/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/annprodous/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/annprodous/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/annprodous/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/annprodous/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/annprodous/.m2/repository/org/slf4j/slf4j-nop/2.0.7/slf4j-nop-2.0.7.jar:/Users/annprodous/.m2/repository/org/json/json/20230618/json-20230618.jar:/Users/annprodous/.m2/repository/org/apache/logging/log4j/log4j-core/3.0.0-alpha1/log4j-core-3.0.0-alpha1.jar:/Users/annprodous/.m2/repository/org/apache/logging/log4j/log4j-plugins/3.0.0-alpha1/log4j-plugins-3.0.0-alpha1.jar:/Users/annprodous/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/Users/annprodous/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/Users/annprodous/.m2/repository/com/fasterxml/woodstox/woodstox-core/6.5.0/woodstox-core-6.5.0.jar:/Users/annprodous/.m2/repository/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar:/Users/annprodous/.m2/repository/org/apache/logging/log4j/log4j-api/3.0.0-alpha1/log4j-api-3.0.0-alpha1.jar:/Users/annprodous/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar:/Users/annprodous/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/annprodous/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/annprodous/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/annprodous/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/annprodous/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/annprodous/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/annprodous"/>
     <property name="user.language" value="en"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2021-01-19"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/annprodous/TDDFrameworkAlt"/>
+    <property name="basedir" value="/Users/annprodous/Documents/git/appiumcicd"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/annprodous/TDDFrameworkAlt/target/surefire/surefirebooter-20230816142923062_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/annprodous/Documents/git/appiumcicd/target/surefire/surefirebooter-20230816151751430_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="15.0.2+7-27"/>
@@ -44,7 +44,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/var/folders/yg/6fl75h0s6xqcpsrb37j0hdp00000gn/T/"/>
     <property name="java.version" value="15.0.2"/>
-    <property name="user.dir" value="/Users/annprodous/TDDFrameworkAlt"/>
+    <property name="user.dir" value="/Users/annprodous/Documents/git/appiumcicd"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.library.path" value="/Users/annprodous/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
@@ -55,68 +55,8 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="beforeMethod" classname="com.qa.tests.LoginTests" time="16.049">
-    <failure message="An unknown server-side error occurred while processing the command. Original error: &apos;ffmpeg&apos; binary is not found in PATH. Install it using &apos;brew install ffmpeg&apos;. Check https://www.ffmpeg.org/download.html for more details.&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.2&apos;&#10;Driver info: io.appium.java_client.ios.IOSDriver&#10;Command: [12fa12ad-ff2d-407e-b426-1bc8ad2b872f, startRecordingScreen {}]&#10;Capabilities {appium:app: /Users/annprodous/TDDFramew..., appium:automationName: XCUITest, appium:bundleId: com.saucelabs.SwagLabsMobil..., appium:databaseEnabled: false, appium:deviceName: iPhone 14 Pro Max, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:takesScreenshot: true, appium:udid: 90BAEFB6-D016-4D55-B9F4-83E..., appium:wdaLocalPort: 10001, appium:webStorageEnabled: false, appium:webkitDebugProxyPort: 11001, platformName: IOS}&#10;Session ID: 12fa12ad-ff2d-407e-b426-1bc8ad2b872f" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-An unknown server-side error occurred while processing the command. Original error: 'ffmpeg' binary is not found in PATH. Install it using 'brew install ffmpeg'. Check https://www.ffmpeg.org/download.html for more details.
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
-Driver info: io.appium.java_client.ios.IOSDriver
-Command: [12fa12ad-ff2d-407e-b426-1bc8ad2b872f, startRecordingScreen {}]
-Capabilities {appium:app: /Users/annprodous/TDDFramew..., appium:automationName: XCUITest, appium:bundleId: com.saucelabs.SwagLabsMobil..., appium:databaseEnabled: false, appium:deviceName: iPhone 14 Pro Max, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:takesScreenshot: true, appium:udid: 90BAEFB6-D016-4D55-B9F4-83E..., appium:wdaLocalPort: 10001, appium:webStorageEnabled: false, appium:webkitDebugProxyPort: 11001, platformName: IOS}
-Session ID: 12fa12ad-ff2d-407e-b426-1bc8ad2b872f
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:313)
-	at io.appium.java_client.screenrecording.CanRecordScreen.startRecordingScreen(CanRecordScreen.java:48)
-	at com.qa.BaseTest.beforeMethod(BaseTest.java:109)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-out><![CDATA[&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v2.0.1 (REV 98f1be77f93a0d23fbc68629d0854522e9f0c1c3)
+  <testcase name="invalidPassword" classname="com.qa.tests.LoginTests" time="7.664">
+    <system-out><![CDATA[&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v2.0.1 (REV b8b46501e4caa1cad75b30627c123127ab09a6a7)
 &amp#27;[35m[Appium]&amp#27;[39m Non-default server args:
 &amp#27;[35m[Appium]&amp#27;[39m { sessionOverride: &amp#27;[33mtrue&amp#27;[39m }
 &amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver uiautomator2...
@@ -133,88 +73,59 @@ Session ID: 12fa12ad-ff2d-407e-b426-1bc8ad2b872f
 &amp#27;[35m[Appium]&amp#27;[39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
 &amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/status&amp#27;[39m
 &amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
-[debug] &amp#27;[38;5;16m[AppiumDriver@62e9]&amp#27;[0m Calling AppiumDriver.getStatus() with args: []
-[debug] &amp#27;[38;5;16m[AppiumDriver@62e9]&amp#27;[0m Responding to client with driver.getStatus() result: {"build":{"version":"2.0.1","git-sha":"98f1be77f93a0d23fbc68629d0854522e9f0c1c3","built":"2023-08-06 20:39:46 -0700"}}
-&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /status &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m8 ms - 128&amp#27;[39m
+[debug] &amp#27;[38;5;16m[AppiumDriver@598d]&amp#27;[0m Calling AppiumDriver.getStatus() with args: []
+[debug] &amp#27;[38;5;16m[AppiumDriver@598d]&amp#27;[0m Responding to client with driver.getStatus() result: {"build":{"version":"2.0.1","git-sha":"b8b46501e4caa1cad75b30627c123127ab09a6a7","built":"2023-08-14 14:43:48 +0800"}}
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /status &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m7 ms - 128&amp#27;[39m
 &amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
-[INFO ] 2023-08-16 14:29:29.050 com.qa.BaseTest:119 - Appium server started
-[INFO ] 2023-08-16 14:29:29.188 com.qa.BaseTest:187 - log path: logs/iOS_iPhone 14 Pro Max
-[INFO ] 2023-08-16 14:29:29.235 com.qa.BaseTest:194 - load config.properties
-[INFO ] 2023-08-16 14:29:29.238 com.qa.BaseTest:199 - load strings/strings.xml
-[INFO ] 2023-08-16 14:29:29.257 com.qa.BaseTest:234 - appUrl is/Users/annprodous/TDDFrameworkAlt/src/test/resources/app/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app
-[INFO ] 2023-08-16 14:29:36.952 com.qa.BaseTest:245 - driver initialized: IOSDriver:  on IOS (12fa12ad-ff2d-407e-b426-1bc8ad2b872f)
+[INFO ] 2023-08-16 15:17:57.574 com.qa.BaseTest:128 - Appium server started
+[INFO ] 2023-08-16 15:17:57.693 com.qa.BaseTest:197 - log path: logs/iOS_iPhone 14 Pro Max
+[INFO ] 2023-08-16 15:17:57.733 com.qa.BaseTest:204 - load config.properties
+[INFO ] 2023-08-16 15:17:57.736 com.qa.BaseTest:209 - load strings/strings.xml
+[INFO ] 2023-08-16 15:17:57.753 com.qa.BaseTest:241 - appUrl is/Users/annprodous/Documents/git/appiumcicd/src/test/resources/app/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app
+[INFO ] 2023-08-16 15:18:09.296 com.qa.BaseTest:252 - driver initialized: IOSDriver:  on IOS (ead4b34a-7c18-4abd-a996-43fd006e13e3)
+[INFO ] 2023-08-16 15:18:16.969 com.qa.tests.LoginTests:65 - 
+****** starting test:invalidPassword******
+
+[INFO ] 2023-08-16 15:18:20.540 com.qa.BaseTest:293 - login with standard_user
+[INFO ] 2023-08-16 15:18:22.797 com.qa.BaseTest:293 - password is invalidpassword
+[INFO ] 2023-08-16 15:18:23.749 com.qa.BaseTest:282 - press login button
+[INFO ] 2023-08-16 15:18:25.521 com.qa.BaseTest:313 - error text is - Username and password do not match any user in this service.
 ]]></system-out>
   </testcase>
-  <testcase name="beforeMethod" classname="com.qa.tests.LoginTests" time="0.0">
-    <skipped/>
+  <testcase name="invalidUserName" classname="com.qa.tests.LoginTests" time="7.01">
+    <system-out><![CDATA[[INFO ] 2023-08-16 15:18:26.415 com.qa.tests.LoginTests:65 - 
+****** starting test:invalidUserName******
+
+[INFO ] 2023-08-16 15:18:28.787 com.qa.BaseTest:293 - login with invalidusername
+[INFO ] 2023-08-16 15:18:31.371 com.qa.BaseTest:293 - password is secret_sauce
+[INFO ] 2023-08-16 15:18:32.226 com.qa.BaseTest:282 - press login button
+[INFO ] 2023-08-16 15:18:33.843 com.qa.BaseTest:313 - error text is - Username and password do not match any user in this service.
+]]></system-out>
   </testcase>
-  <testcase name="beforeMethod" classname="com.qa.tests.LoginTests" time="0.0">
-    <skipped/>
+  <testcase name="successfulLogin" classname="com.qa.tests.LoginTests" time="7.912">
+    <system-out><![CDATA[[INFO ] 2023-08-16 15:18:34.948 com.qa.tests.LoginTests:65 - 
+****** starting test:successfulLogin******
+
+[INFO ] 2023-08-16 15:18:37.133 com.qa.BaseTest:293 - login with standard_user
+[INFO ] 2023-08-16 15:18:39.590 com.qa.BaseTest:293 - password is secret_sauce
+[INFO ] 2023-08-16 15:18:40.501 com.qa.BaseTest:282 - press login button
+[INFO ] 2023-08-16 15:18:43.128 com.qa.BaseTest:313 - product page title is - PRODUCTS
+]]></system-out>
   </testcase>
-  <testcase name="beforeMethod" classname="com.qa.tests.LoginTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="beforeMethod" classname="com.qa.tests.LoginTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="beforeMethod" classname="com.qa.tests.LoginTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="invalidPassword" classname="com.qa.tests.LoginTests" time="0.0">
-    <skipped message="An unknown server-side error occurred while processing the command. Original error: &apos;ffmpeg&apos; binary is not found in PATH. Install it using &apos;brew install ffmpeg&apos;. Check https://www.ffmpeg.org/download.html for more details.&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.2&apos;&#10;Driver info: io.appium.java_client.ios.IOSDriver&#10;Command: [12fa12ad-ff2d-407e-b426-1bc8ad2b872f, startRecordingScreen {}]&#10;Capabilities {appium:app: /Users/annprodous/TDDFramew..., appium:automationName: XCUITest, appium:bundleId: com.saucelabs.SwagLabsMobil..., appium:databaseEnabled: false, appium:deviceName: iPhone 14 Pro Max, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:takesScreenshot: true, appium:udid: 90BAEFB6-D016-4D55-B9F4-83E..., appium:wdaLocalPort: 10001, appium:webStorageEnabled: false, appium:webkitDebugProxyPort: 11001, platformName: IOS}&#10;Session ID: 12fa12ad-ff2d-407e-b426-1bc8ad2b872f"/>
-  </testcase>
-  <testcase name="afterMethod" classname="com.qa.tests.LoginTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="afterMethod" classname="com.qa.tests.LoginTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="afterMethod" classname="com.qa.tests.LoginTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="invalidUserName" classname="com.qa.tests.LoginTests" time="0.0">
-    <skipped message="An unknown server-side error occurred while processing the command. Original error: &apos;ffmpeg&apos; binary is not found in PATH. Install it using &apos;brew install ffmpeg&apos;. Check https://www.ffmpeg.org/download.html for more details.&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.2&apos;&#10;Driver info: io.appium.java_client.ios.IOSDriver&#10;Command: [12fa12ad-ff2d-407e-b426-1bc8ad2b872f, startRecordingScreen {}]&#10;Capabilities {appium:app: /Users/annprodous/TDDFramew..., appium:automationName: XCUITest, appium:bundleId: com.saucelabs.SwagLabsMobil..., appium:databaseEnabled: false, appium:deviceName: iPhone 14 Pro Max, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:takesScreenshot: true, appium:udid: 90BAEFB6-D016-4D55-B9F4-83E..., appium:wdaLocalPort: 10001, appium:webStorageEnabled: false, appium:webkitDebugProxyPort: 11001, platformName: IOS}&#10;Session ID: 12fa12ad-ff2d-407e-b426-1bc8ad2b872f"/>
-  </testcase>
-  <testcase name="successfulLogin" classname="com.qa.tests.LoginTests" time="0.0">
-    <skipped message="An unknown server-side error occurred while processing the command. Original error: &apos;ffmpeg&apos; binary is not found in PATH. Install it using &apos;brew install ffmpeg&apos;. Check https://www.ffmpeg.org/download.html for more details.&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.2&apos;&#10;Driver info: io.appium.java_client.ios.IOSDriver&#10;Command: [12fa12ad-ff2d-407e-b426-1bc8ad2b872f, startRecordingScreen {}]&#10;Capabilities {appium:app: /Users/annprodous/TDDFramew..., appium:automationName: XCUITest, appium:bundleId: com.saucelabs.SwagLabsMobil..., appium:databaseEnabled: false, appium:deviceName: iPhone 14 Pro Max, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:takesScreenshot: true, appium:udid: 90BAEFB6-D016-4D55-B9F4-83E..., appium:wdaLocalPort: 10001, appium:webStorageEnabled: false, appium:webkitDebugProxyPort: 11001, platformName: IOS}&#10;Session ID: 12fa12ad-ff2d-407e-b426-1bc8ad2b872f"/>
-  </testcase>
-  <testcase name="afterClass" classname="com.qa.tests.LoginTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="beforeMethod" classname="com.qa.tests.ProductTests" time="2.493">
-    <failure message="An unknown server-side error occurred while processing the command. Original error: &apos;ffmpeg&apos; binary is not found in PATH. Install it using &apos;brew install ffmpeg&apos;. Check https://www.ffmpeg.org/download.html for more details.&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.2&apos;&#10;Driver info: io.appium.java_client.ios.IOSDriver&#10;Command: [12fa12ad-ff2d-407e-b426-1bc8ad2b872f, startRecordingScreen {}]&#10;Capabilities {appium:app: /Users/annprodous/TDDFramew..., appium:automationName: XCUITest, appium:bundleId: com.saucelabs.SwagLabsMobil..., appium:databaseEnabled: false, appium:deviceName: iPhone 14 Pro Max, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:takesScreenshot: true, appium:udid: 90BAEFB6-D016-4D55-B9F4-83E..., appium:wdaLocalPort: 10001, appium:webStorageEnabled: false, appium:webkitDebugProxyPort: 11001, platformName: IOS}&#10;Session ID: 12fa12ad-ff2d-407e-b426-1bc8ad2b872f" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-An unknown server-side error occurred while processing the command. Original error: 'ffmpeg' binary is not found in PATH. Install it using 'brew install ffmpeg'. Check https://www.ffmpeg.org/download.html for more details.
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
-Driver info: io.appium.java_client.ios.IOSDriver
-Command: [12fa12ad-ff2d-407e-b426-1bc8ad2b872f, startRecordingScreen {}]
-Capabilities {appium:app: /Users/annprodous/TDDFramew..., appium:automationName: XCUITest, appium:bundleId: com.saucelabs.SwagLabsMobil..., appium:databaseEnabled: false, appium:deviceName: iPhone 14 Pro Max, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:takesScreenshot: true, appium:udid: 90BAEFB6-D016-4D55-B9F4-83E..., appium:wdaLocalPort: 10001, appium:webStorageEnabled: false, appium:webkitDebugProxyPort: 11001, platformName: IOS}
-Session ID: 12fa12ad-ff2d-407e-b426-1bc8ad2b872f
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:313)
-	at io.appium.java_client.screenrecording.CanRecordScreen.startRecordingScreen(CanRecordScreen.java:48)
-	at com.qa.BaseTest.beforeMethod(BaseTest.java:109)
+  <testcase name="validateProductOnProductDetailsPage" classname="com.qa.tests.ProductTests" time="10.421">
+    <failure message="The following asserts failed:&#10;	expected [null] but found [Sauce Labs Backpack],&#10;	expected [null] but found [carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+The following asserts failed:
+	expected [null] but found [Sauce Labs Backpack],
+	expected [null] but found [carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at com.qa.tests.ProductTests.validateProductOnProductDetailsPage(ProductTests.java:117)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
@@ -242,27 +153,123 @@ Session ID: 12fa12ad-ff2d-407e-b426-1bc8ad2b872f
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
+    <system-out><![CDATA[[INFO ] 2023-08-16 15:18:47.096 com.qa.tests.ProductTests:70 - 
+****** starting test:validateProductOnProductDetailsPage******
+
+[INFO ] 2023-08-16 15:18:49.089 com.qa.BaseTest:293 - login with standard_user
+[INFO ] 2023-08-16 15:18:51.349 com.qa.BaseTest:293 - password is secret_sauce
+[INFO ] 2023-08-16 15:18:52.174 com.qa.BaseTest:282 - press login button
+[INFO ] 2023-08-16 15:18:53.839 com.qa.BaseTest:282 - press SLB tile link
+[INFO ] 2023-08-16 15:18:55.645 com.qa.BaseTest:313 - title is - Sauce Labs Backpack
+[INFO ] 2023-08-16 15:18:56.181 com.qa.BaseTest:313 - txt is - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[ERROR] 2023-08-16 15:19:03.256 com.qa.listeners.TestListener:34 - java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Sauce Labs Backpack],
+	expected [null] but found [carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at com.qa.tests.ProductTests.validateProductOnProductDetailsPage(ProductTests.java:117)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+]]></system-out>
   </testcase>
-  <testcase name="beforeMethod" classname="com.qa.tests.ProductTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="beforeMethod" classname="com.qa.tests.ProductTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="beforeMethod" classname="com.qa.tests.ProductTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="validateProductOnProductDetailsPage" classname="com.qa.tests.ProductTests" time="0.0">
-    <skipped message="An unknown server-side error occurred while processing the command. Original error: &apos;ffmpeg&apos; binary is not found in PATH. Install it using &apos;brew install ffmpeg&apos;. Check https://www.ffmpeg.org/download.html for more details.&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.2&apos;&#10;Driver info: io.appium.java_client.ios.IOSDriver&#10;Command: [12fa12ad-ff2d-407e-b426-1bc8ad2b872f, startRecordingScreen {}]&#10;Capabilities {appium:app: /Users/annprodous/TDDFramew..., appium:automationName: XCUITest, appium:bundleId: com.saucelabs.SwagLabsMobil..., appium:databaseEnabled: false, appium:deviceName: iPhone 14 Pro Max, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:takesScreenshot: true, appium:udid: 90BAEFB6-D016-4D55-B9F4-83E..., appium:wdaLocalPort: 10001, appium:webStorageEnabled: false, appium:webkitDebugProxyPort: 11001, platformName: IOS}&#10;Session ID: 12fa12ad-ff2d-407e-b426-1bc8ad2b872f"/>
+  <testcase name="afterMethod" classname="com.qa.tests.ProductTests" time="22.212">
+    <failure message="Expected condition failed: waiting for visibility of Located by By.chained({AppiumBy.id: test-LOGOUT}) (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.2&apos;&#10;Driver info: io.appium.java_client.ios.IOSDriver&#10;Capabilities {appium:app: /Users/annprodous/Documents..., appium:automationName: XCUITest, appium:bundleId: com.saucelabs.SwagLabsMobil..., appium:databaseEnabled: false, appium:deviceName: iPhone 14 Pro Max, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:takesScreenshot: true, appium:udid: 90BAEFB6-D016-4D55-B9F4-83E..., appium:wdaLocalPort: 10001, appium:webStorageEnabled: false, appium:webkitDebugProxyPort: 11001, platformName: IOS}&#10;Session ID: ead4b34a-7c18-4abd-a996-43fd006e13e3" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of Located by By.chained({AppiumBy.id: test-LOGOUT}) (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {appium:app: /Users/annprodous/Documents..., appium:automationName: XCUITest, appium:bundleId: com.saucelabs.SwagLabsMobil..., appium:databaseEnabled: false, appium:deviceName: iPhone 14 Pro Max, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:takesScreenshot: true, appium:udid: 90BAEFB6-D016-4D55-B9F4-83E..., appium:wdaLocalPort: 10001, appium:webStorageEnabled: false, appium:webkitDebugProxyPort: 11001, platformName: IOS}
+Session ID: ead4b34a-7c18-4abd-a996-43fd006e13e3
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at com.qa.BaseTest.waitForVisibility(BaseTest.java:268)
+	at com.qa.BaseTest.click(BaseTest.java:277)
+	at com.qa.pages.SettingsPage.pressLogoutBtn(SettingsPage.java:25)
+	at com.qa.tests.ProductTests.afterMethod(ProductTests.java:79)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[[INFO ] 2023-08-16 15:19:03.996 com.qa.BaseTest:282 - press Settings button
+press Logout button
+]]></system-out>
   </testcase>
   <testcase name="afterMethod" classname="com.qa.tests.ProductTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="afterMethod" classname="com.qa.tests.ProductTests" time="0.0">
+  <testcase name="beforeMethod" classname="com.qa.tests.ProductTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeMethod" classname="com.qa.tests.ProductTests" time="0.0">
     <skipped/>
   </testcase>
   <testcase name="validateProductOnProductsPage" classname="com.qa.tests.ProductTests" time="0.0">
-    <skipped message="An unknown server-side error occurred while processing the command. Original error: &apos;ffmpeg&apos; binary is not found in PATH. Install it using &apos;brew install ffmpeg&apos;. Check https://www.ffmpeg.org/download.html for more details.&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.2&apos;&#10;Driver info: io.appium.java_client.ios.IOSDriver&#10;Command: [12fa12ad-ff2d-407e-b426-1bc8ad2b872f, startRecordingScreen {}]&#10;Capabilities {appium:app: /Users/annprodous/TDDFramew..., appium:automationName: XCUITest, appium:bundleId: com.saucelabs.SwagLabsMobil..., appium:databaseEnabled: false, appium:deviceName: iPhone 14 Pro Max, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:takesScreenshot: true, appium:udid: 90BAEFB6-D016-4D55-B9F4-83E..., appium:wdaLocalPort: 10001, appium:webStorageEnabled: false, appium:webkitDebugProxyPort: 11001, platformName: IOS}&#10;Session ID: 12fa12ad-ff2d-407e-b426-1bc8ad2b872f"/>
+    <skipped message="Expected condition failed: waiting for visibility of Located by By.chained({AppiumBy.id: test-LOGOUT}) (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.2&apos;&#10;Driver info: io.appium.java_client.ios.IOSDriver&#10;Capabilities {appium:app: /Users/annprodous/Documents..., appium:automationName: XCUITest, appium:bundleId: com.saucelabs.SwagLabsMobil..., appium:databaseEnabled: false, appium:deviceName: iPhone 14 Pro Max, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:takesScreenshot: true, appium:udid: 90BAEFB6-D016-4D55-B9F4-83E..., appium:wdaLocalPort: 10001, appium:webStorageEnabled: false, appium:webkitDebugProxyPort: 11001, platformName: IOS}&#10;Session ID: ead4b34a-7c18-4abd-a996-43fd006e13e3"/>
   </testcase>
   <testcase name="afterClass" classname="com.qa.tests.ProductTests" time="0.0">
     <skipped/>

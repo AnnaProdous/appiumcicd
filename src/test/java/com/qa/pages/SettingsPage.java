@@ -19,14 +19,8 @@ public class SettingsPage extends BaseTest {
 	@iOSXCUITFindBy (id = "test-LOGOUT")
 	private WebElement logoutBtn;
 
-	BaseTest base;
 	public LoginPage pressLogoutBtn() {
-		System.out.println("press Logout button");
-		click(logoutBtn);
+		click(logoutBtn, "press Logout button");
 		return new LoginPage();
 }
-	public SettingsPage() {
-		base = new BaseTest();
-		PageFactory.initElements(new AppiumFieldDecorator(base.getDriver()), this);
-	}
 }

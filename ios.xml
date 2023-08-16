@@ -4,6 +4,7 @@
 	<listeners>
 		<listener class-name="com.qa.listeners.TestListener"/>
 	</listeners>
+		<parameter name="emulator" value="true"/>
 		<parameter name="platformName" value="iOS"/>
  	    <parameter name="udid" value="90BAEFB6-D016-4D55-B9F4-83EC3ADD3AA3"/>
 	  	<parameter name="deviceName" value="iPhone 14 Pro Max"/>

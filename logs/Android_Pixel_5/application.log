@@ -217,3 +217,30 @@
 [logs/Android_Pixel_5 INFO ] 2023-08-16 14:26:40.823 BaseTest:275 - press login button
 [logs/Android_Pixel_5 INFO ] 2023-08-16 14:26:42.188 BaseTest:306 - product page title is - PRODUCTS
 [logs/Android_Pixel_5 INFO ] 2023-08-16 14:26:47.238 BaseTest:144 - Appium server stopped
+[logs/Android_Pixel_5 INFO ] 2023-08-16 15:07:36.134 BaseTest:197 - log path: logs/Android_Pixel_5
+[logs/Android_Pixel_5 INFO ] 2023-08-16 15:07:36.172 BaseTest:204 - load config.properties
+[logs/Android_Pixel_5 INFO ] 2023-08-16 15:07:36.176 BaseTest:209 - load strings/strings.xml
+[logs/Android_Pixel_5 INFO ] 2023-08-16 15:07:36.200 BaseTest:232 - appUrl is/Users/annprodous/Documents/git/appiumcicd/src/test/resources/app/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[logs/Android_Pixel_5 INFO ] 2023-08-16 15:07:47.228 BaseTest:252 - driver initialized: AndroidDriver:  on ANDROID (8fe7f301-91dd-4cda-b5eb-d29846342244)
+[logs/Android_Pixel_5 INFO ] 2023-08-16 15:07:48.731 LoginTests:65 - 
+****** starting test:invalidPassword******
+
+[logs/Android_Pixel_5 INFO ] 2023-08-16 15:07:51.708 BaseTest:293 - login with standard_user
+[logs/Android_Pixel_5 INFO ] 2023-08-16 15:07:53.520 BaseTest:293 - password is invalidpassword
+[logs/Android_Pixel_5 INFO ] 2023-08-16 15:07:54.684 BaseTest:282 - press login button
+[logs/Android_Pixel_5 INFO ] 2023-08-16 15:07:56.031 BaseTest:313 - error text is - Username and password do not match any user in this service.
+[logs/Android_Pixel_5 INFO ] 2023-08-16 15:07:57.666 LoginTests:65 - 
+****** starting test:invalidUserName******
+
+[logs/Android_Pixel_5 INFO ] 2023-08-16 15:07:58.818 BaseTest:293 - login with invalidusername
+[logs/Android_Pixel_5 INFO ] 2023-08-16 15:08:00.107 BaseTest:293 - password is secret_sauce
+[logs/Android_Pixel_5 INFO ] 2023-08-16 15:08:01.247 BaseTest:282 - press login button
+[logs/Android_Pixel_5 INFO ] 2023-08-16 15:08:02.058 BaseTest:313 - error text is - Username and password do not match any user in this service.
+[logs/Android_Pixel_5 INFO ] 2023-08-16 15:08:03.584 LoginTests:65 - 
+****** starting test:successfulLogin******
+
+[logs/Android_Pixel_5 INFO ] 2023-08-16 15:08:04.631 BaseTest:293 - login with standard_user
+[logs/Android_Pixel_5 INFO ] 2023-08-16 15:08:06.334 BaseTest:293 - password is secret_sauce
+[logs/Android_Pixel_5 INFO ] 2023-08-16 15:08:07.426 BaseTest:282 - press login button
+[logs/Android_Pixel_5 INFO ] 2023-08-16 15:08:08.800 BaseTest:313 - product page title is - PRODUCTS
+[logs/Android_Pixel_5 INFO ] 2023-08-16 15:08:13.521 BaseTest:153 - Appium server stopped

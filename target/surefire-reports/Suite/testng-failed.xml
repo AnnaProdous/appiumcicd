@@ -5,34 +5,20 @@
     <listener class-name="com.qa.listeners.TestListener"/>
   </listeners>
   <test thread-count="5" name="Pixel_5(failed)" verbose="0">
+    <parameter name="emulator" value="true"/>
     <parameter name="webkitDebugProxyPort" value="11001"/>
+    <parameter name="platformVersion" value="16.4"/>
     <parameter name="platformName" value="iOS"/>
     <parameter name="udid" value="90BAEFB6-D016-4D55-B9F4-83EC3ADD3AA3"/>
     <parameter name="deviceName" value="iPhone 14 Pro Max"/>
     <parameter name="wdaLocalPort" value="10001"/>
     <classes>
-      <class name="com.qa.tests.LoginTests">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="afterTest"/>
-          <include name="beforeSuite"/>
-          <include name="beforeClass"/>
-          <include name="invalidUserName"/>
-          <include name="beforeTest"/>
-          <include name="beforeMethod"/>
-          <include name="afterSuite"/>
-          <include name="afterMethod"/>
-          <include name="afterClass"/>
-          <include name="successfulLogin"/>
-          <include name="invalidPassword"/>
-        </methods>
-      </class> <!-- com.qa.tests.LoginTests -->
       <class name="com.qa.tests.ProductTests">
         <methods>
-          <include name="beforeClass"/>
           <include name="afterTest"/>
-          <include name="beforeSuite"/>
+          <include name="beforeClass"/>
           <include name="validateProductOnProductsPage"/>
+          <include name="beforeSuite"/>
           <include name="beforeTest"/>
           <include name="beforeMethod"/>
           <include name="afterSuite"/>

@@ -67,8 +67,8 @@ public class ProductTests extends  BaseTest{
   
   @BeforeMethod
   public void beforeMethod(Method m) {
-	  loginPage = new LoginPage();
 	  utils.log().info("\n" + "****** starting test:" + m.getName() + "******" + "\n");
+	  loginPage = new LoginPage();
 	  productsPage = loginPage.login(loginUsers.getJSONObject("validUser").getString("username"),
 			  loginUsers.getJSONObject("validUser").getString("password"));
   }
@@ -112,8 +112,6 @@ public class ProductTests extends  BaseTest{
 			productDetailsPage.scrollPage();
 			sa.assertTrue(productDetailsPage.isAddToCartBtnDisplayed());
 		}
-//		  productsPage = productDetailsPage.pressBackToProductsBtn(); // -> Commented as this is causing stale element exception for the Settings icon
-
 		sa.assertAll();
 	}
 }
