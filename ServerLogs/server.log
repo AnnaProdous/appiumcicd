@@ -1,0 +1,377 @@
+2023-08-16 11:29:26:802 [Appium] Welcome to Appium v2.0.1 (REV 98f1be77f93a0d23fbc68629d0854522e9f0c1c3)
+2023-08-16 11:29:26:805 [Appium] Non-default server args:
+2023-08-16 11:29:26:806 [Appium] { sessionOverride: true }
+2023-08-16 11:29:26:807 [Appium] Attempting to load driver uiautomator2...
+2023-08-16 11:29:26:808 [Appium] Requiring driver at /Users/annprodous/node_modules/appium-uiautomator2-driver
+2023-08-16 11:29:27:764 [Appium] Attempting to load driver xcuitest...
+2023-08-16 11:29:27:765 [Appium] Requiring driver at /Users/annprodous/node_modules/appium-xcuitest-driver
+2023-08-16 11:29:27:984 [Appium] Appium REST http interface listener started on http://0.0.0.0:4723
+2023-08-16 11:29:27:986 [Appium] You can provide the following URLS in your client code to connect to this server:
+2023-08-16 11:29:27:986 [Appium] 	http://127.0.0.1:4723/ (only accessible from the same host)
+2023-08-16 11:29:27:986 [Appium] 	http://192.168.1.110:4723/
+2023-08-16 11:29:27:987 [Appium] Available drivers:
+2023-08-16 11:29:27:987 [Appium]   - uiautomator2@2.29.4 (automationName 'UiAutomator2')
+2023-08-16 11:29:27:988 [Appium]   - xcuitest@4.33.2 (automationName 'XCUITest')
+2023-08-16 11:29:27:988 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+2023-08-16 11:29:28:087 [HTTP] --> GET /status
+2023-08-16 11:29:28:087 [HTTP] {}
+2023-08-16 11:29:28:089 [AppiumDriver@62e9] Calling AppiumDriver.getStatus() with args: []
+2023-08-16 11:29:28:090 [AppiumDriver@62e9] Responding to client with driver.getStatus() result: {"build":{"version":"2.0.1","git-sha":"98f1be77f93a0d23fbc68629d0854522e9f0c1c3","built":"2023-08-06 20:39:46 -0700"}}
+2023-08-16 11:29:28:096 [HTTP] <-- GET /status 200 8 ms - 128
+2023-08-16 11:29:28:096 [HTTP] 
+2023-08-16 11:29:29:931 [HTTP] Request idempotency key: a7d456fd-e80d-442a-9d24-f2146e4a8bc9
+2023-08-16 11:29:29:942 [HTTP] --> POST /session
+2023-08-16 11:29:29:942 [HTTP] {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:app":"/Users/annprodous/TDDFrameworkAlt/src/test/resources/app/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app","appium:automationName":"XCUITest","appium:bundleId":"com.saucelabs.SwagLabsMobileApp","appium:deviceName":"iPhone 14 Pro Max","appium:udid":"90BAEFB6-D016-4D55-B9F4-83EC3ADD3AA3","appium:wdaLocalPort":"10001","appium:webkitDebugProxyPort":"11001","platformName":"IOS"}}}
+2023-08-16 11:29:29:943 [AppiumDriver@62e9] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:app":"/Users/annprodous/TDDFrameworkAlt/src/test/resources/app/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app","appium:automationName":"XCUITest","appium:bundleId":"com.saucelabs.SwagLabsMobileApp","appium:deviceName":"iPhone 14 Pro Max","appium:udid":"90BAEFB6-D016-4D55-B9F4-83EC3ADD3AA3","appium:wdaLocalPort":"10001","appium:webkitDebugProxyPort":"11001","platformName":"IOS"}}]
+2023-08-16 11:29:29:943 [AppiumDriver@62e9] Event 'newSessionRequested' logged at 1692185369943 (14:29:29 GMT+0300 (Israel Daylight Time))
+2023-08-16 11:29:29:946 [Appium] Attempting to find matching driver for automationName 'XCUITest' and platformName 'IOS'
+2023-08-16 11:29:29:946 [Appium] The 'xcuitest' driver was installed and matched caps.
+2023-08-16 11:29:29:946 [Appium] Will require it at /Users/annprodous/node_modules/appium-xcuitest-driver
+2023-08-16 11:29:29:946 [Appium] Requiring driver at /Users/annprodous/node_modules/appium-xcuitest-driver
+2023-08-16 11:29:29:946 [AppiumDriver@62e9] Appium v2.0.1 creating new XCUITestDriver (v4.33.2) session
+2023-08-16 11:29:29:946 [AppiumDriver@62e9] Checking BaseDriver versions for Appium and XCUITestDriver
+2023-08-16 11:29:29:946 [AppiumDriver@62e9] Appium's BaseDriver version is 9.3.16
+2023-08-16 11:29:29:946 [AppiumDriver@62e9] XCUITestDriver's BaseDriver version is 9.3.16
+2023-08-16 11:29:29:947 [AppiumDriver@62e9] There are no active sessions for cleanup
+2023-08-16 11:29:29:951 [XCUITestDriver@c62b] Creating session with W3C capabilities: {
+2023-08-16 11:29:29:951 [XCUITestDriver@c62b]   "alwaysMatch": {
+2023-08-16 11:29:29:951 [XCUITestDriver@c62b]     "platformName": "IOS",
+2023-08-16 11:29:29:951 [XCUITestDriver@c62b]     "appium:app": "/Users/annprodous/TDDFrameworkAlt/src/test/resources/app/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app",
+2023-08-16 11:29:29:951 [XCUITestDriver@c62b]     "appium:automationName": "XCUITest",
+2023-08-16 11:29:29:951 [XCUITestDriver@c62b]     "appium:bundleId": "com.saucelabs.SwagLabsMobileApp",
+2023-08-16 11:29:29:951 [XCUITestDriver@c62b]     "appium:deviceName": "iPhone 14 Pro Max",
+2023-08-16 11:29:29:951 [XCUITestDriver@c62b]     "appium:udid": "90BAEFB6-D016-4D55-B9F4-83EC3ADD3AA3",
+2023-08-16 11:29:29:951 [XCUITestDriver@c62b]     "appium:wdaLocalPort": "10001",
+2023-08-16 11:29:29:951 [XCUITestDriver@c62b]     "appium:webkitDebugProxyPort": "11001"
+2023-08-16 11:29:29:951 [XCUITestDriver@c62b]   },
+2023-08-16 11:29:29:951 [XCUITestDriver@c62b]   "firstMatch": [
+2023-08-16 11:29:29:951 [XCUITestDriver@c62b]     {}
+2023-08-16 11:29:29:951 [XCUITestDriver@c62b]   ]
+2023-08-16 11:29:29:951 [XCUITestDriver@c62b] }
+2023-08-16 11:29:29:957 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2023-08-16 11:29:29:959 [XCUITestDriver@c62b] Capability 'wdaLocalPort' changed from string ('10001') to integer (10001). This may cause unexpected behavior
+2023-08-16 11:29:29:962 [XCUITestDriver@c62b] The following capabilities were provided, but are not recognized by Appium:
+2023-08-16 11:29:29:962 [XCUITestDriver@c62b]   webkitDebugProxyPort
+2023-08-16 11:29:29:962 [XCUITestDriver@c62b] 'platformVersion' capability ('undefined') is not a valid version number. Consider fixing it or be ready to experience an inconsistent driver behavior.
+2023-08-16 11:29:29:963 [XCUITestDriver@c62b (12fa12ad)] Session created with session id: 12fa12ad-ff2d-407e-b426-1bc8ad2b872f
+2023-08-16 11:29:29:986 [XCUITest] Current user: 'annprodous'
+2023-08-16 11:29:29:998 [XCUITestDriver@c62b (12fa12ad)] Available devices: 
+2023-08-16 11:29:29:998 [XCUITestDriver@c62b (12fa12ad)] No real device with udid '90BAEFB6-D016-4D55-B9F4-83EC3ADD3AA3'. Looking for simulator
+2023-08-16 11:29:30:633 [iOSSim] Constructing iOS simulator for Xcode version 14.3.1 with udid '90BAEFB6-D016-4D55-B9F4-83EC3ADD3AA3'
+2023-08-16 11:29:30:634 [XCUITestDriver@c62b (12fa12ad)] Determining device to run tests on: udid: '90BAEFB6-D016-4D55-B9F4-83EC3ADD3AA3', real device: false
+2023-08-16 11:29:30:770 [XCUITestDriver@c62b (12fa12ad)] No platformVersion specified. Using device version: '16.4'
+2023-08-16 11:29:30:773 [XCUITestDriver@c62b (12fa12ad)] Event 'xcodeDetailsRetrieved' logged at 1692185370773 (14:29:30 GMT+0300 (Israel Daylight Time))
+2023-08-16 11:29:30:775 [BaseDriver] Using local app '/Users/annprodous/TDDFrameworkAlt/src/test/resources/app/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app'
+2023-08-16 11:29:30:779 [XCUITestDriver@c62b (12fa12ad)] Event 'appConfigured' logged at 1692185370779 (14:29:30 GMT+0300 (Israel Daylight Time))
+2023-08-16 11:29:30:779 [XCUITest] Checking whether app '/Users/annprodous/TDDFrameworkAlt/src/test/resources/app/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app' is actually present on file system
+2023-08-16 11:29:30:779 [XCUITest] App is present
+2023-08-16 11:29:30:779 [XCUITestDriver@c62b (12fa12ad)] Event 'resetStarted' logged at 1692185370779 (14:29:30 GMT+0300 (Israel Daylight Time))
+2023-08-16 11:29:31:310 [XCUITest] Not scrubbing third party app in anticipation of uninstall
+2023-08-16 11:29:31:310 [XCUITestDriver@c62b (12fa12ad)] Event 'resetComplete' logged at 1692185371310 (14:29:31 GMT+0300 (Israel Daylight Time))
+2023-08-16 11:29:31:311 [XCUITestDriver@c62b (12fa12ad)] Using WDA path: '/Users/annprodous/node_modules/appium-webdriveragent'
+2023-08-16 11:29:31:311 [XCUITestDriver@c62b (12fa12ad)] Using WDA agent: '/Users/annprodous/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+2023-08-16 11:29:31:472 [IOSSimulatorLog] Starting log capture for iOS Simulator with udid '90BAEFB6-D016-4D55-B9F4-83EC3ADD3AA3' using simctl
+2023-08-16 11:29:31:878 [XCUITestDriver@c62b (12fa12ad)] Event 'logCaptureStarted' logged at 1692185371878 (14:29:31 GMT+0300 (Israel Daylight Time))
+2023-08-16 11:29:31:878 [XCUITestDriver@c62b (12fa12ad)] Setting up simulator
+2023-08-16 11:29:31:879 [iOSSim] Setting preferences of 90BAEFB6-D016-4D55-B9F4-83EC3ADD3AA3 Simulator to {"ConnectHardwareKeyboard":false}
+2023-08-16 11:29:31:879 [iOSSim] Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"StartLastDeviceOnLaunch":false,"DetachOnWindowClose":false,"AttachBootedOnStart":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false}
+2023-08-16 11:29:32:476 [iOSSim] Updated 90BAEFB6-D016-4D55-B9F4-83EC3ADD3AA3 Simulator preferences at '/Users/annprodous/Library/Preferences/com.apple.iphonesimulator.plist' with {"RotateWindowWhenSignaledByGuest":true,"StartLastDeviceOnLaunch":false,"DetachOnWindowClose":false,"AttachBootedOnStart":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false,"DevicePreferences":{"90BAEFB6-D016-4D55-B9F4-83EC3ADD3AA3":{"ConnectHardwareKeyboard":false,"SimulatorExternalDisplay":2114,"ChromeTint":"","SimulatorWindowOrientation":"Portrait","SimulatorWindowGeometry":{"638C5807-9CB4-4FAD-9BE5-812C80099A50":{"WindowCenter":"{1256.5, 462}","WindowScale":0.7510288065843621}},"SimulatorWindowRotationAngle":0}}}
+2023-08-16 11:29:32:641 [iOSSim] Got Simulator UI client PID: 6838
+2023-08-16 11:29:32:641 [iOSSim] Both Simulator with UDID '90BAEFB6-D016-4D55-B9F4-83EC3ADD3AA3' and the UI client are currently running
+2023-08-16 11:29:32:643 [XCUITestDriver@c62b (12fa12ad)] Event 'simStarted' logged at 1692185372643 (14:29:32 GMT+0300 (Israel Daylight Time))
+2023-08-16 11:29:32:644 [XCUITest] Verifying application platform
+2023-08-16 11:29:32:645 [XCUITest] CFBundleSupportedPlatforms: ["iPhoneSimulator"]
+2023-08-16 11:29:32:825 [XCUITestDriver@c62b (12fa12ad)] App 'com.saucelabs.SwagLabsMobileApp' is already installed
+2023-08-16 11:29:32:974 [XCUITest] Reset requested. Removing app with id 'com.saucelabs.SwagLabsMobileApp' from the device
+2023-08-16 11:29:33:314 [XCUITest] Installing '/Users/annprodous/TDDFrameworkAlt/src/test/resources/app/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app' on Simulator with UUID '90BAEFB6-D016-4D55-B9F4-83EC3ADD3AA3'...
+2023-08-16 11:29:33:870 [XCUITest] The app has been installed successfully.
+2023-08-16 11:29:33:870 [XCUITestDriver@c62b (12fa12ad)] Event 'appInstalled' logged at 1692185373870 (14:29:33 GMT+0300 (Israel Daylight Time))
+2023-08-16 11:29:34:013 [XCUITestDriver@c62b (12fa12ad)] No obsolete cached processes from previous WDA sessions listening on port 10001 have been found
+2023-08-16 11:29:34:013 [DevCon Factory] Requesting connection for device 90BAEFB6-D016-4D55-B9F4-83EC3ADD3AA3 on local port 10001
+2023-08-16 11:29:34:013 [DevCon Factory] Cached connections count: 0
+2023-08-16 11:29:34:014 [DevCon Factory] Successfully requested the connection for 90BAEFB6-D016-4D55-B9F4-83EC3ADD3AA3:10001
+2023-08-16 11:29:34:015 [XCUITestDriver@c62b (12fa12ad)] Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+2023-08-16 11:29:34:018 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-08-16 11:29:34:018 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10001/status] with no body
+2023-08-16 11:29:34:044 [WD Proxy] Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"16.4","version":"16.4"},"ios":{"simulatorVersion":"16.4","ip":"192.168.1.110"},"ready":true,"build":{"upgradedAt":"1690875297795","time":"Aug 16 2023 14:19:36","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+2023-08-16 11:29:34:051 [XCUITestDriver@c62b (12fa12ad)] Upgrade timestamp of the currently bundled WDA: 1690875297795
+2023-08-16 11:29:34:051 [XCUITestDriver@c62b (12fa12ad)] Upgrade timestamp of the WDA on the device: 1690875297795
+2023-08-16 11:29:34:051 [XCUITestDriver@c62b (12fa12ad)] Will reuse previously cached WDA instance at 'http://127.0.0.1:10001/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 10001 if this is an undesired behavior.
+2023-08-16 11:29:34:051 [XCUITestDriver@c62b (12fa12ad)] Trying to start WebDriverAgent 2 times with 10000ms interval
+2023-08-16 11:29:34:051 [XCUITestDriver@c62b (12fa12ad)] These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+2023-08-16 11:29:34:051 [XCUITestDriver@c62b (12fa12ad)] Event 'wdaStartAttempted' logged at 1692185374051 (14:29:34 GMT+0300 (Israel Daylight Time))
+2023-08-16 11:29:34:052 [XCUITestDriver@c62b (12fa12ad)] Using provided WebdriverAgent at 'http://127.0.0.1:10001/'
+2023-08-16 11:29:34:053 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-08-16 11:29:34:053 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10001/status] with no body
+2023-08-16 11:29:34:056 [WD Proxy] Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"16.4","version":"16.4"},"ios":{"simulatorVersion":"16.4","ip":"192.168.1.110"},"ready":true,"build":{"upgradedAt":"1690875297795","time":"Aug 16 2023 14:19:36","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+2023-08-16 11:29:34:057 [XCUITestDriver@c62b (12fa12ad)] Event 'wdaSessionAttempted' logged at 1692185374057 (14:29:34 GMT+0300 (Israel Daylight Time))
+2023-08-16 11:29:34:057 [XCUITestDriver@c62b (12fa12ad)] Sending createSession command to WDA
+2023-08-16 11:29:34:057 [XCUITestDriver@c62b (12fa12ad)] Matched '/session' to command name 'createSession'
+2023-08-16 11:29:34:058 [XCUITestDriver@c62b (12fa12ad)] Proxying [POST /session] to [POST http://127.0.0.1:10001/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"com.saucelabs.SwagLabsMobileApp","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true,"shouldTerminateApp":true,"forceAppLaunch":true,"useNativeCachingStrategy":true,"forceSimulatorSoftwareKeyboardPresence":true}],"alwaysMatch":{}}}
+2023-08-16 11:29:36:796 [XCUITestDriver@c62b (12fa12ad)] Parsed BUILD_DIR configuration value: '/Users/annprodous/Library/Developer/Xcode/DerivedData/WebDriverAgent-fiihwqardnavavedxeafuephucjj/Build/Products'
+2023-08-16 11:29:36:797 [XCUITestDriver@c62b (12fa12ad)] Got derived data root: '/Users/annprodous/Library/Developer/Xcode/DerivedData/WebDriverAgent-fiihwqardnavavedxeafuephucjj'
+2023-08-16 11:29:36:800 [XCUITestDriver@c62b (12fa12ad)] Got response with status 200: {"value":{"sessionId":"FACFA88A-0175-470F-91A6-05DF42DFC286","capabilities":{"device":"iphone","browserName":"SwagLabsMobileApp","sdkVersion":"16.4","CFBundleIdentifier":"com.saucelabs.SwagLabsMobileApp"}},"sessionId":"FACFA88A-0175-470F-91A6-05DF42DFC286"}
+2023-08-16 11:29:36:800 [XCUITestDriver@c62b (12fa12ad)] Determined the downstream protocol as 'W3C'
+2023-08-16 11:29:36:800 [XCUITestDriver@c62b (12fa12ad)] Event 'wdaSessionStarted' logged at 1692185376800 (14:29:36 GMT+0300 (Israel Daylight Time))
+2023-08-16 11:29:36:801 [XCUITestDriver@c62b (12fa12ad)] Event 'wdaStarted' logged at 1692185376800 (14:29:36 GMT+0300 (Israel Daylight Time))
+2023-08-16 11:29:36:801 [BaseDriver] The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
+2023-08-16 11:29:36:801 [BaseDriver] The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
+2023-08-16 11:29:36:802 [AppiumDriver@62e9] New XCUITestDriver session created successfully, session 12fa12ad-ff2d-407e-b426-1bc8ad2b872f added to master session list
+2023-08-16 11:29:36:802 [AppiumDriver@62e9] Event 'newSessionStarted' logged at 1692185376802 (14:29:36 GMT+0300 (Israel Daylight Time))
+2023-08-16 11:29:36:803 [XCUITestDriver@c62b (12fa12ad)] Cached the protocol value 'W3C' for the new session 12fa12ad-ff2d-407e-b426-1bc8ad2b872f
+2023-08-16 11:29:36:804 [XCUITestDriver@c62b (12fa12ad)] Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"IOS","app":"/Users/annprodous/TDDFrameworkAlt/src/test/resources/app/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app","automationName":"XCUITest","bundleId":"com.saucelabs.SwagLabsMobileApp","deviceName":"iPhone 14 Pro Max","udid":"90BAEFB6-D016-4D55-B9F4-83EC3ADD3AA3","wdaLocalPort":10001,"webkitDebugProxyPort":"11001"}}
+2023-08-16 11:29:36:809 [HTTP] <-- POST /session 200 6867 ms - 617
+2023-08-16 11:29:36:809 [HTTP] 
+2023-08-16 11:29:37:002 [HTTP] --> POST /session/12fa12ad-ff2d-407e-b426-1bc8ad2b872f/execute/sync
+2023-08-16 11:29:37:002 [HTTP] {"script":"mobile: terminateApp","args":[{"bundleId":"com.saucelabs.SwagLabsMobileApp","appId":"com.saucelabs.SwagLabsMobileApp"}]}
+2023-08-16 11:29:37:013 [XCUITestDriver@c62b (12fa12ad)] Calling AppiumDriver.execute() with args: ["mobile: terminateApp",[{"bundleId":"com.saucelabs.SwagLabsMobileApp","appId":"com.saucelabs.SwagLabsMobileApp"}],"12fa12ad-ff2d-407e-b426-1bc8ad2b872f"]
+2023-08-16 11:29:37:013 [XCUITestDriver@c62b (12fa12ad)] Executing command 'execute'
+2023-08-16 11:29:37:014 [BaseDriver] The following script arguments are not known and will be ignored: appId
+2023-08-16 11:29:37:045 [XCUITestDriver@c62b (12fa12ad)] Proxying [POST /wda/apps/terminate] to [POST http://127.0.0.1:10001/session/FACFA88A-0175-470F-91A6-05DF42DFC286/wda/apps/terminate] with body: {"bundleId":"com.saucelabs.SwagLabsMobileApp"}
+2023-08-16 11:29:38:097 [XCUITestDriver@c62b (12fa12ad)] Got response with status 200: {"value":true,"sessionId":"FACFA88A-0175-470F-91A6-05DF42DFC286"}
+2023-08-16 11:29:38:099 [XCUITestDriver@c62b (12fa12ad)] Responding to client with driver.execute() result: true
+2023-08-16 11:29:38:101 [HTTP] <-- POST /session/12fa12ad-ff2d-407e-b426-1bc8ad2b872f/execute/sync 200 1098 ms - 14
+2023-08-16 11:29:38:101 [HTTP] 
+2023-08-16 11:29:38:119 [HTTP] --> POST /session/12fa12ad-ff2d-407e-b426-1bc8ad2b872f/execute/sync
+2023-08-16 11:29:38:119 [HTTP] {"script":"mobile: activateApp","args":[{"bundleId":"com.saucelabs.SwagLabsMobileApp","appId":"com.saucelabs.SwagLabsMobileApp"}]}
+2023-08-16 11:29:38:150 [XCUITestDriver@c62b (12fa12ad)] Calling AppiumDriver.execute() with args: ["mobile: activateApp",[{"bundleId":"com.saucelabs.SwagLabsMobileApp","appId":"com.saucelabs.SwagLabsMobileApp"}],"12fa12ad-ff2d-407e-b426-1bc8ad2b872f"]
+2023-08-16 11:29:38:150 [XCUITestDriver@c62b (12fa12ad)] Executing command 'execute'
+2023-08-16 11:29:38:151 [BaseDriver] The following script arguments are not known and will be ignored: appId
+2023-08-16 11:29:38:154 [XCUITestDriver@c62b (12fa12ad)] Proxying [POST /wda/apps/activate] to [POST http://127.0.0.1:10001/session/FACFA88A-0175-470F-91A6-05DF42DFC286/wda/apps/activate] with body: {"bundleId":"com.saucelabs.SwagLabsMobileApp"}
+2023-08-16 11:29:39:468 [XCUITestDriver@c62b (12fa12ad)] Got response with status 200: {"value":null,"sessionId":"FACFA88A-0175-470F-91A6-05DF42DFC286"}
+2023-08-16 11:29:39:470 [XCUITestDriver@c62b (12fa12ad)] Responding to client with driver.execute() result: null
+2023-08-16 11:29:39:475 [HTTP] <-- POST /session/12fa12ad-ff2d-407e-b426-1bc8ad2b872f/execute/sync 200 1352 ms - 14
+2023-08-16 11:29:39:475 [HTTP] 
+2023-08-16 11:29:39:515 [HTTP] --> POST /session/12fa12ad-ff2d-407e-b426-1bc8ad2b872f/appium/start_recording_screen
+2023-08-16 11:29:39:515 [HTTP] {}
+2023-08-16 11:29:39:522 [XCUITestDriver@c62b (12fa12ad)] Calling AppiumDriver.startRecordingScreen() with args: [null,"12fa12ad-ff2d-407e-b426-1bc8ad2b872f"]
+2023-08-16 11:29:39:522 [XCUITestDriver@c62b (12fa12ad)] Executing command 'startRecordingScreen'
+2023-08-16 11:29:39:522 [XCUITestDriver@c62b (12fa12ad)] Checking if there is/was a previous screen recording. Set 'forceRestart' option to 'true' if you'd like to skip this step.
+2023-08-16 11:29:39:523 [XCUITestDriver@c62b (12fa12ad)] Screen recording is not running. There is nothing to stop.
+2023-08-16 11:29:39:524 [DevCon Factory] Releasing connections for 90BAEFB6-D016-4D55-B9F4-83EC3ADD3AA3 device on 9100 port number
+2023-08-16 11:29:39:524 [DevCon Factory] No cached connections have been found
+2023-08-16 11:29:39:525 [XCUITestDriver@c62b (12fa12ad)] Matched '/appium/settings' to command name 'getSettings'
+2023-08-16 11:29:39:525 [XCUITestDriver@c62b (12fa12ad)] Proxying [GET /appium/settings] to [GET http://127.0.0.1:10001/session/FACFA88A-0175-470F-91A6-05DF42DFC286/appium/settings] with no body
+2023-08-16 11:29:39:529 [XCUITestDriver@c62b (12fa12ad)] Got response with status 200: {"value":{"boundElementsByIndex":false,"mjpegServerFramerate":10,"screenshotOrientation":"auto","reduceMotion":false,"elementResponseAttributes":"type,label","screenshotQuality":3,"mjpegScalingFactor":100,"keyboardPrediction":0,"defaultActiveApplication":"auto","mjpegServerScreenshotQuality":25,"defaultAlertAction":"","keyboardAutocorrection":0,"useFirstMatch":false,"shouldUseCompactResponses":true,"customSnapshotTimeout":15,"dismissAlertButtonSelector":"","activeAppDetectionPoint":"64.00,64.00","snapshotMaxDepth":50,"waitForIdleTimeout":10,"includeNonModalElements":false,"acceptAlertButtonSelector":"","animationCoolOffTimeout":2},"sessionId":"FACFA88A-0175-470F-91A6-05DF42DFC286"}
+2023-08-16 11:29:39:532 [DevCon Factory] Releasing connections for 90BAEFB6-D016-4D55-B9F4-83EC3ADD3AA3 device on 9100 port number
+2023-08-16 11:29:39:532 [DevCon Factory] No cached connections have been found
+2023-08-16 11:29:39:541 [XCUITestDriver@c62b (12fa12ad)] Encountered internal error running command: Error: 'ffmpeg' binary is not found in PATH. Install it using 'brew install ffmpeg'. Check https://www.ffmpeg.org/download.html for more details.
+2023-08-16 11:29:39:541 [XCUITestDriver@c62b (12fa12ad)]     at ScreenRecorder.start (/Users/annprodous/node_modules/appium-xcuitest-driver/lib/commands/recordscreen.js:40:13)
+2023-08-16 11:29:39:541 [XCUITestDriver@c62b (12fa12ad)]     at XCUITestDriver.startRecordingScreen (/Users/annprodous/node_modules/appium-xcuitest-driver/lib/commands/recordscreen.js:296:7)
+2023-08-16 11:29:39:554 [HTTP] <-- POST /session/12fa12ad-ff2d-407e-b426-1bc8ad2b872f/appium/start_recording_screen 500 39 ms - 782
+2023-08-16 11:29:39:555 [HTTP] 
+2023-08-16 11:29:39:849 [HTTP] --> POST /session/12fa12ad-ff2d-407e-b426-1bc8ad2b872f/execute/sync
+2023-08-16 11:29:39:849 [HTTP] {"script":"mobile: terminateApp","args":[{"bundleId":"com.saucelabs.SwagLabsMobileApp","appId":"com.saucelabs.SwagLabsMobileApp"}]}
+2023-08-16 11:29:39:853 [XCUITestDriver@c62b (12fa12ad)] Calling AppiumDriver.execute() with args: ["mobile: terminateApp",[{"bundleId":"com.saucelabs.SwagLabsMobileApp","appId":"com.saucelabs.SwagLabsMobileApp"}],"12fa12ad-ff2d-407e-b426-1bc8ad2b872f"]
+2023-08-16 11:29:39:853 [XCUITestDriver@c62b (12fa12ad)] Executing command 'execute'
+2023-08-16 11:29:39:853 [BaseDriver] The following script arguments are not known and will be ignored: appId
+2023-08-16 11:29:39:854 [XCUITestDriver@c62b (12fa12ad)] Proxying [POST /wda/apps/terminate] to [POST http://127.0.0.1:10001/session/FACFA88A-0175-470F-91A6-05DF42DFC286/wda/apps/terminate] with body: {"bundleId":"com.saucelabs.SwagLabsMobileApp"}
+2023-08-16 11:29:40:909 [XCUITestDriver@c62b (12fa12ad)] Got response with status 200: {"value":true,"sessionId":"FACFA88A-0175-470F-91A6-05DF42DFC286"}
+2023-08-16 11:29:40:910 [XCUITestDriver@c62b (12fa12ad)] Responding to client with driver.execute() result: true
+2023-08-16 11:29:40:913 [HTTP] <-- POST /session/12fa12ad-ff2d-407e-b426-1bc8ad2b872f/execute/sync 200 1063 ms - 14
+2023-08-16 11:29:40:913 [HTTP] 
+2023-08-16 11:29:40:935 [HTTP] --> POST /session/12fa12ad-ff2d-407e-b426-1bc8ad2b872f/execute/sync
+2023-08-16 11:29:40:935 [HTTP] {"script":"mobile: activateApp","args":[{"bundleId":"com.saucelabs.SwagLabsMobileApp","appId":"com.saucelabs.SwagLabsMobileApp"}]}
+2023-08-16 11:29:40:936 [XCUITestDriver@c62b (12fa12ad)] Calling AppiumDriver.execute() with args: ["mobile: activateApp",[{"bundleId":"com.saucelabs.SwagLabsMobileApp","appId":"com.saucelabs.SwagLabsMobileApp"}],"12fa12ad-ff2d-407e-b426-1bc8ad2b872f"]
+2023-08-16 11:29:40:936 [XCUITestDriver@c62b (12fa12ad)] Executing command 'execute'
+2023-08-16 11:29:40:936 [BaseDriver] The following script arguments are not known and will be ignored: appId
+2023-08-16 11:29:40:938 [XCUITestDriver@c62b (12fa12ad)] Proxying [POST /wda/apps/activate] to [POST http://127.0.0.1:10001/session/FACFA88A-0175-470F-91A6-05DF42DFC286/wda/apps/activate] with body: {"bundleId":"com.saucelabs.SwagLabsMobileApp"}
+2023-08-16 11:29:42:240 [XCUITestDriver@c62b (12fa12ad)] Got response with status 200: {"value":null,"sessionId":"FACFA88A-0175-470F-91A6-05DF42DFC286"}
+2023-08-16 11:29:42:241 [XCUITestDriver@c62b (12fa12ad)] Responding to client with driver.execute() result: null
+2023-08-16 11:29:42:243 [HTTP] <-- POST /session/12fa12ad-ff2d-407e-b426-1bc8ad2b872f/execute/sync 200 1307 ms - 14
+2023-08-16 11:29:42:243 [HTTP] 
+2023-08-16 11:29:42:276 [HTTP] --> POST /session/12fa12ad-ff2d-407e-b426-1bc8ad2b872f/appium/start_recording_screen
+2023-08-16 11:29:42:276 [HTTP] {}
+2023-08-16 11:29:42:276 [XCUITestDriver@c62b (12fa12ad)] Calling AppiumDriver.startRecordingScreen() with args: [null,"12fa12ad-ff2d-407e-b426-1bc8ad2b872f"]
+2023-08-16 11:29:42:277 [XCUITestDriver@c62b (12fa12ad)] Executing command 'startRecordingScreen'
+2023-08-16 11:29:42:277 [XCUITestDriver@c62b (12fa12ad)] Checking if there is/was a previous screen recording. Set 'forceRestart' option to 'true' if you'd like to skip this step.
+2023-08-16 11:29:42:277 [XCUITestDriver@c62b (12fa12ad)] Screen recording is not running. There is nothing to stop.
+2023-08-16 11:29:42:278 [DevCon Factory] Releasing connections for 90BAEFB6-D016-4D55-B9F4-83EC3ADD3AA3 device on 9100 port number
+2023-08-16 11:29:42:278 [DevCon Factory] No cached connections have been found
+2023-08-16 11:29:42:280 [XCUITestDriver@c62b (12fa12ad)] Matched '/appium/settings' to command name 'getSettings'
+2023-08-16 11:29:42:280 [XCUITestDriver@c62b (12fa12ad)] Proxying [GET /appium/settings] to [GET http://127.0.0.1:10001/session/FACFA88A-0175-470F-91A6-05DF42DFC286/appium/settings] with no body
+2023-08-16 11:29:42:283 [XCUITestDriver@c62b (12fa12ad)] Got response with status 200: {"value":{"boundElementsByIndex":false,"mjpegServerFramerate":10,"screenshotOrientation":"auto","reduceMotion":false,"elementResponseAttributes":"type,label","screenshotQuality":3,"mjpegScalingFactor":100,"keyboardPrediction":0,"defaultActiveApplication":"auto","mjpegServerScreenshotQuality":25,"defaultAlertAction":"","keyboardAutocorrection":0,"useFirstMatch":false,"shouldUseCompactResponses":true,"customSnapshotTimeout":15,"dismissAlertButtonSelector":"","activeAppDetectionPoint":"64.00,64.00","snapshotMaxDepth":50,"waitForIdleTimeout":10,"includeNonModalElements":false,"acceptAlertButtonSelector":"","animationCoolOffTimeout":2},"sessionId":"FACFA88A-0175-470F-91A6-05DF42DFC286"}
+2023-08-16 11:29:42:286 [DevCon Factory] Releasing connections for 90BAEFB6-D016-4D55-B9F4-83EC3ADD3AA3 device on 9100 port number
+2023-08-16 11:29:42:286 [DevCon Factory] No cached connections have been found
+2023-08-16 11:29:42:287 [XCUITestDriver@c62b (12fa12ad)] Encountered internal error running command: Error: 'ffmpeg' binary is not found in PATH. Install it using 'brew install ffmpeg'. Check https://www.ffmpeg.org/download.html for more details.
+2023-08-16 11:29:42:287 [XCUITestDriver@c62b (12fa12ad)]     at ScreenRecorder.start (/Users/annprodous/node_modules/appium-xcuitest-driver/lib/commands/recordscreen.js:40:13)
+2023-08-16 11:29:42:287 [XCUITestDriver@c62b (12fa12ad)]     at XCUITestDriver.startRecordingScreen (/Users/annprodous/node_modules/appium-xcuitest-driver/lib/commands/recordscreen.js:296:7)
+2023-08-16 11:29:42:288 [HTTP] <-- POST /session/12fa12ad-ff2d-407e-b426-1bc8ad2b872f/appium/start_recording_screen 500 12 ms - 782
+2023-08-16 11:29:42:288 [HTTP] 
+2023-08-16 11:29:42:345 [HTTP] --> DELETE /session/12fa12ad-ff2d-407e-b426-1bc8ad2b872f
+2023-08-16 11:29:42:345 [HTTP] {}
+2023-08-16 11:29:42:345 [XCUITestDriver@c62b (12fa12ad)] Calling AppiumDriver.deleteSession() with args: ["12fa12ad-ff2d-407e-b426-1bc8ad2b872f"]
+2023-08-16 11:29:42:346 [AppiumDriver@62e9] Event 'quitSessionRequested' logged at 1692185382345 (14:29:42 GMT+0300 (Israel Daylight Time))
+2023-08-16 11:29:42:346 [AppiumDriver@62e9] Removing session 12fa12ad-ff2d-407e-b426-1bc8ad2b872f from our master session list
+2023-08-16 11:29:42:347 [XCUITestDriver@c62b (12fa12ad)] Matched '/session/12fa12ad-ff2d-407e-b426-1bc8ad2b872f' to command name 'deleteSession'
+2023-08-16 11:29:42:347 [XCUITestDriver@c62b (12fa12ad)] Proxying [DELETE /session/12fa12ad-ff2d-407e-b426-1bc8ad2b872f] to [DELETE http://127.0.0.1:10001/session/FACFA88A-0175-470F-91A6-05DF42DFC286] with no body
+2023-08-16 11:29:43:402 [XCUITestDriver@c62b (12fa12ad)] Got response with status 200: {"value":null,"sessionId":null}
+2023-08-16 11:29:43:402 [DevCon Factory] Releasing connections for 90BAEFB6-D016-4D55-B9F4-83EC3ADD3AA3 device on any port number
+2023-08-16 11:29:43:402 [DevCon Factory] Found cached connections to release: ["90BAEFB6-D016-4D55-B9F4-83EC3ADD3AA3:10001"]
+2023-08-16 11:29:43:403 [DevCon Factory] Cached connections count: 0
+2023-08-16 11:29:43:403 [XCUITestDriver@c62b (12fa12ad)] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+2023-08-16 11:29:43:404 [IOSSimulatorLog] Stopping iOS log capture
+2023-08-16 11:29:43:418 [AppiumDriver@62e9] Event 'quitSessionFinished' logged at 1692185383417 (14:29:43 GMT+0300 (Israel Daylight Time))
+2023-08-16 11:29:43:418 [AppiumDriver@62e9] Received response: null
+2023-08-16 11:29:43:418 [AppiumDriver@62e9] But deleting session, so not returning
+2023-08-16 11:29:43:418 [AppiumDriver@62e9] Responding to client with driver.deleteSession() result: null
+2023-08-16 11:29:43:420 [HTTP] <-- DELETE /session/12fa12ad-ff2d-407e-b426-1bc8ad2b872f 200 1074 ms - 14
+2023-08-16 11:29:43:420 [HTTP] 
+2023-08-16 11:29:43:945 [HTTP] --> GET /status
+2023-08-16 11:29:43:945 [HTTP] {}
+2023-08-16 11:29:43:945 [AppiumDriver@62e9] Calling AppiumDriver.getStatus() with args: []
+2023-08-16 11:29:43:946 [AppiumDriver@62e9] Responding to client with driver.getStatus() result: {"build":{"version":"2.0.1","git-sha":"98f1be77f93a0d23fbc68629d0854522e9f0c1c3","built":"2023-08-06 20:39:46 -0700"}}
+2023-08-16 11:29:43:947 [HTTP] <-- GET /status 200 1 ms - 128
+2023-08-16 11:29:43:947 [HTTP] 
+2023-08-16 11:29:43:955 [Appium] Received SIGTERM - shutting down
+2023-08-16 11:29:43:955 [AppiumDriver@62e9] There are no active sessions for cleanup
+2023-08-16 11:29:43:961 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:399:12)
+    at _write (node:internal/streams/writable:340:10)
+    at Socket.Writable.write (node:internal/streams/writable:344:10)
+    at Console.log (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/opt/homebrew/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at Console.Writable.write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.ondata (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:526:35)
+    at addChunk (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+    at readableAddChunk (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:132:32)
+    at DerivedLogger._transform (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
+    at DerivedLogger.Transform._read (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:166:10)
+    at DerivedLogger.Transform._write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:155:83)
+    at doWrite (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.<computed> [as info] (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/create-logger.js:81:14)
+    at EventEmitter.<anonymous> (/opt/homebrew/lib/node_modules/appium/lib/logsink.js:230:24)
+    at EventEmitter.emit (node:events:514:28)
+    at EventEmitter.<anonymous> (/opt/homebrew/lib/node_modules/appium/node_modules/npmlog/lib/log.js:247:8)
+2023-08-16 11:29:43:963 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:399:12)
+    at _write (node:internal/streams/writable:340:10)
+    at Socket.Writable.write (node:internal/streams/writable:344:10)
+    at Console.log (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/opt/homebrew/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at Console.Writable.write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.ondata (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:526:35)
+    at addChunk (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+    at readableAddChunk (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:132:32)
+    at DerivedLogger._transform (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
+    at DerivedLogger.Transform._read (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:166:10)
+    at DerivedLogger.Transform._write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:155:83)
+    at doWrite (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.log (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:514:28)
+    at processEmit (/opt/homebrew/lib/node_modules/appium/node_modules/signal-exit/index.js:199:34)
+2023-08-16 11:29:43:963 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:399:12)
+    at _write (node:internal/streams/writable:340:10)
+    at Socket.Writable.write (node:internal/streams/writable:344:10)
+    at Console.log (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/opt/homebrew/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at Console.Writable.write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.ondata (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:526:35)
+    at addChunk (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+    at readableAddChunk (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:132:32)
+    at DerivedLogger._transform (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
+    at DerivedLogger.Transform._read (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:166:10)
+    at DerivedLogger.Transform._write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:155:83)
+    at doWrite (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.log (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:514:28)
+    at processEmit (/opt/homebrew/lib/node_modules/appium/node_modules/signal-exit/index.js:199:34)
+2023-08-16 11:29:43:964 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:399:12)
+    at _write (node:internal/streams/writable:340:10)
+    at Socket.Writable.write (node:internal/streams/writable:344:10)
+    at Console.log (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/opt/homebrew/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at Console.Writable.write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.ondata (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:526:35)
+    at addChunk (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+    at readableAddChunk (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:132:32)
+    at DerivedLogger._transform (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
+    at DerivedLogger.Transform._read (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:166:10)
+    at DerivedLogger.Transform._write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:155:83)
+    at doWrite (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.log (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:514:28)
+    at processEmit (/opt/homebrew/lib/node_modules/appium/node_modules/signal-exit/index.js:199:34)
+2023-08-16 11:29:43:965 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:399:12)
+    at _write (node:internal/streams/writable:340:10)
+    at Socket.Writable.write (node:internal/streams/writable:344:10)
+    at Console.log (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/opt/homebrew/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at Console.Writable.write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.ondata (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:526:35)
+    at addChunk (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+    at readableAddChunk (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:132:32)
+    at DerivedLogger._transform (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
+    at DerivedLogger.Transform._read (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:166:10)
+    at DerivedLogger.Transform._write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:155:83)
+    at doWrite (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.log (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:514:28)
+    at processEmit (/opt/homebrew/lib/node_modules/appium/node_modules/signal-exit/index.js:199:34)

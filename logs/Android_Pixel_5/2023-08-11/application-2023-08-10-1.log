@@ -1,0 +1,36 @@
+[logs/Android_Pixel_5 INFO ] 2023-08-10 16:07:44.253 BaseTest:75 - This is info message
+[logs/Android_Pixel_5 ERROR] 2023-08-10 16:07:44.273 BaseTest:76 - This is error message
+[logs/Android_Pixel_5 DEBUG] 2023-08-10 16:07:44.273 BaseTest:77 - This is debug message
+[logs/Android_Pixel_5 WARN ] 2023-08-10 16:07:44.273 BaseTest:78 - This is warning message
+[logs/Android_Pixel_5 INFO ] 2023-08-10 17:54:49.443 BaseTest:102 - This is info message
+[logs/Android_Pixel_5 ERROR] 2023-08-10 17:54:49.473 BaseTest:103 - This is error message
+[logs/Android_Pixel_5 DEBUG] 2023-08-10 17:54:49.474 BaseTest:104 - This is debug message
+[logs/Android_Pixel_5 WARN ] 2023-08-10 17:54:49.474 BaseTest:105 - This is warning message
+[logs/Android_Pixel_5 INFO ] 2023-08-10 18:02:51.567 BaseTest:102 - This is info message
+[logs/Android_Pixel_5 ERROR] 2023-08-10 18:02:51.591 BaseTest:103 - This is error message
+[logs/Android_Pixel_5 DEBUG] 2023-08-10 18:02:51.592 BaseTest:104 - This is debug message
+[logs/Android_Pixel_5 WARN ] 2023-08-10 18:02:51.592 BaseTest:105 - This is warning message
+[logs/Android_Pixel_5 INFO ] 2023-08-10 18:08:56.740 BaseTest:102 - This is info message
+[logs/Android_Pixel_5 ERROR] 2023-08-10 18:08:56.767 BaseTest:103 - This is error message
+[logs/Android_Pixel_5 DEBUG] 2023-08-10 18:08:56.767 BaseTest:104 - This is debug message
+[logs/Android_Pixel_5 WARN ] 2023-08-10 18:08:56.768 BaseTest:105 - This is warning message
+[logs/Android_Pixel_5 INFO ] 2023-08-10 18:13:58.592 BaseTest:103 - This is info message
+[logs/Android_Pixel_5 ERROR] 2023-08-10 18:13:58.673 BaseTest:104 - This is error message
+[logs/Android_Pixel_5 DEBUG] 2023-08-10 18:13:58.673 BaseTest:105 - This is debug message
+[logs/Android_Pixel_5 WARN ] 2023-08-10 18:13:58.674 BaseTest:106 - This is warning message
+[logs/Android_Pixel_5 INFO ] 2023-08-10 18:16:17.477 BaseTest:104 - This is info message
+[logs/Android_Pixel_5 ERROR] 2023-08-10 18:16:17.504 BaseTest:105 - This is error message
+[logs/Android_Pixel_5 DEBUG] 2023-08-10 18:16:17.504 BaseTest:106 - This is debug message
+[logs/Android_Pixel_5 WARN ] 2023-08-10 18:16:17.504 BaseTest:107 - This is warning message
+[logs/Android_Pixel_5 INFO ] 2023-08-10 18:20:04.027 BaseTest:106 - This is info message
+[logs/Android_Pixel_5 ERROR] 2023-08-10 18:20:04.057 BaseTest:107 - This is error message
+[logs/Android_Pixel_5 DEBUG] 2023-08-10 18:20:04.057 BaseTest:108 - This is debug message
+[logs/Android_Pixel_5 WARN ] 2023-08-10 18:20:04.058 BaseTest:109 - This is warning message
+[logs/Android_Pixel_5 INFO ] 2023-08-10 18:34:33.040 BaseTest:112 - This is info message
+[logs/Android_Pixel_5 ERROR] 2023-08-10 18:34:33.068 BaseTest:113 - This is error message
+[logs/Android_Pixel_5 DEBUG] 2023-08-10 18:34:33.069 BaseTest:114 - This is debug message
+[logs/Android_Pixel_5 WARN ] 2023-08-10 18:34:33.069 BaseTest:115 - This is warning message
+[logs/Android_Pixel_5 INFO ] 2023-08-10 18:43:41.773 BaseTest:116 - This is info message
+[logs/Android_Pixel_5 ERROR] 2023-08-10 18:43:41.792 BaseTest:117 - This is error message
+[logs/Android_Pixel_5 DEBUG] 2023-08-10 18:43:41.792 BaseTest:118 - This is debug message
+[logs/Android_Pixel_5 WARN ] 2023-08-10 18:43:41.792 BaseTest:119 - This is warning message

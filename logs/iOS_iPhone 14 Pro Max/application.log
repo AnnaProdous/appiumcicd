@@ -1,0 +1,56 @@
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-11 10:57:17.581 BaseTest:111 - This is info message
+[logs/iOS_iPhone 14 Pro Max ERROR] 2023-08-11 10:57:17.601 BaseTest:112 - This is error message
+[logs/iOS_iPhone 14 Pro Max DEBUG] 2023-08-11 10:57:17.602 BaseTest:113 - This is debug message
+[logs/iOS_iPhone 14 Pro Max WARN ] 2023-08-11 10:57:17.602 BaseTest:114 - This is warning message
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-11 10:58:05.939 BaseTest:111 - This is info message
+[logs/iOS_iPhone 14 Pro Max ERROR] 2023-08-11 10:58:06.016 BaseTest:112 - This is error message
+[logs/iOS_iPhone 14 Pro Max DEBUG] 2023-08-11 10:58:06.016 BaseTest:113 - This is debug message
+[logs/iOS_iPhone 14 Pro Max WARN ] 2023-08-11 10:58:06.017 BaseTest:114 - This is warning message
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-11 10:59:56.847 BaseTest:111 - This is info message
+[logs/iOS_iPhone 14 Pro Max ERROR] 2023-08-11 10:59:56.866 BaseTest:112 - This is error message
+[logs/iOS_iPhone 14 Pro Max DEBUG] 2023-08-11 10:59:56.866 BaseTest:113 - This is debug message
+[logs/iOS_iPhone 14 Pro Max WARN ] 2023-08-11 10:59:56.867 BaseTest:114 - This is warning message
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-11 11:01:07.378 BaseTest:111 - This is info message
+[logs/iOS_iPhone 14 Pro Max ERROR] 2023-08-11 11:01:07.398 BaseTest:112 - This is error message
+[logs/iOS_iPhone 14 Pro Max DEBUG] 2023-08-11 11:01:07.399 BaseTest:113 - This is debug message
+[logs/iOS_iPhone 14 Pro Max WARN ] 2023-08-11 11:01:07.399 BaseTest:114 - This is warning message
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-11 11:05:46.053 BaseTest:111 - This is info message
+[logs/iOS_iPhone 14 Pro Max ERROR] 2023-08-11 11:05:46.073 BaseTest:112 - This is error message
+[logs/iOS_iPhone 14 Pro Max DEBUG] 2023-08-11 11:05:46.074 BaseTest:113 - This is debug message
+[logs/iOS_iPhone 14 Pro Max WARN ] 2023-08-11 11:05:46.074 BaseTest:114 - This is warning message
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-11 11:10:20.374 BaseTest:111 - This is info message
+[logs/iOS_iPhone 14 Pro Max ERROR] 2023-08-11 11:10:20.394 BaseTest:112 - This is error message
+[logs/iOS_iPhone 14 Pro Max DEBUG] 2023-08-11 11:10:20.394 BaseTest:113 - This is debug message
+[logs/iOS_iPhone 14 Pro Max WARN ] 2023-08-11 11:10:20.394 BaseTest:114 - This is warning message
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-11 13:23:48.198 BaseTest:108 - This is info message
+[logs/iOS_iPhone 14 Pro Max ERROR] 2023-08-11 13:23:48.216 BaseTest:109 - This is error message
+[logs/iOS_iPhone 14 Pro Max DEBUG] 2023-08-11 13:23:48.217 BaseTest:110 - This is debug message
+[logs/iOS_iPhone 14 Pro Max WARN ] 2023-08-11 13:23:48.217 BaseTest:111 - This is warning message
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-11 13:24:21.080 BaseTest:108 - This is info message
+[logs/iOS_iPhone 14 Pro Max ERROR] 2023-08-11 13:24:21.130 BaseTest:109 - This is error message
+[logs/iOS_iPhone 14 Pro Max DEBUG] 2023-08-11 13:24:21.131 BaseTest:110 - This is debug message
+[logs/iOS_iPhone 14 Pro Max WARN ] 2023-08-11 13:24:21.131 BaseTest:111 - This is warning message
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-11 16:24:35.559 BaseTest:114 - This is info message
+[logs/iOS_iPhone 14 Pro Max ERROR] 2023-08-11 16:24:35.578 BaseTest:115 - This is error message
+[logs/iOS_iPhone 14 Pro Max DEBUG] 2023-08-11 16:24:35.578 BaseTest:116 - This is debug message
+[logs/iOS_iPhone 14 Pro Max WARN ] 2023-08-11 16:24:35.578 BaseTest:117 - This is warning message
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-11 16:29:55.973 BaseTest:114 - This is info message
+[logs/iOS_iPhone 14 Pro Max ERROR] 2023-08-11 16:29:55.992 BaseTest:115 - This is error message
+[logs/iOS_iPhone 14 Pro Max DEBUG] 2023-08-11 16:29:55.992 BaseTest:116 - This is debug message
+[logs/iOS_iPhone 14 Pro Max WARN ] 2023-08-11 16:29:55.992 BaseTest:117 - This is warning message
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-11 16:32:11.235 BaseTest:114 - This is info message
+[logs/iOS_iPhone 14 Pro Max ERROR] 2023-08-11 16:32:11.253 BaseTest:115 - This is error message
+[logs/iOS_iPhone 14 Pro Max DEBUG] 2023-08-11 16:32:11.254 BaseTest:116 - This is debug message
+[logs/iOS_iPhone 14 Pro Max WARN ] 2023-08-11 16:32:11.254 BaseTest:117 - This is warning message
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 14:18:35.812 BaseTest:187 - log path: logs/iOS_iPhone 14 Pro Max
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 14:18:35.886 BaseTest:194 - load config.properties
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 14:18:35.892 BaseTest:199 - load strings/strings.xml
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 14:18:35.899 BaseTest:234 - appUrl is/Users/annprodous/TDDFrameworkAlt/src/test/resources/app/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 14:20:34.994 BaseTest:245 - driver initialized: IOSDriver:  on IOS (df64b680-74e7-41f7-8b62-daef316d943e)
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 14:20:47.299 BaseTest:144 - Appium server stopped
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 14:29:29.188 BaseTest:187 - log path: logs/iOS_iPhone 14 Pro Max
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 14:29:29.235 BaseTest:194 - load config.properties
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 14:29:29.238 BaseTest:199 - load strings/strings.xml
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 14:29:29.257 BaseTest:234 - appUrl is/Users/annprodous/TDDFrameworkAlt/src/test/resources/app/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 14:29:36.952 BaseTest:245 - driver initialized: IOSDriver:  on IOS (12fa12ad-ff2d-407e-b426-1bc8ad2b872f)
+[logs/iOS_iPhone 14 Pro Max INFO ] 2023-08-16 14:29:49.170 BaseTest:144 - Appium server stopped

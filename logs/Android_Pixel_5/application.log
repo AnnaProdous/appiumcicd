@@ -1,0 +1,219 @@
+[logs/Android_Pixel_5 INFO ] 2023-08-13 10:33:40.046 BaseTest:123 - This is info message
+[logs/Android_Pixel_5 ERROR] 2023-08-13 10:33:40.067 BaseTest:124 - This is error message
+[logs/Android_Pixel_5 DEBUG] 2023-08-13 10:33:40.068 BaseTest:125 - This is debug message
+[logs/Android_Pixel_5 WARN ] 2023-08-13 10:33:40.068 BaseTest:126 - This is warning message
+[logs/Android_Pixel_5 INFO ] 2023-08-13 10:34:03.098 BaseTest:123 - This is info message
+[logs/Android_Pixel_5 ERROR] 2023-08-13 10:34:03.116 BaseTest:124 - This is error message
+[logs/Android_Pixel_5 DEBUG] 2023-08-13 10:34:03.116 BaseTest:125 - This is debug message
+[logs/Android_Pixel_5 WARN ] 2023-08-13 10:34:03.116 BaseTest:126 - This is warning message
+[logs/Android_Pixel_5 INFO ] 2023-08-13 10:37:45.395 BaseTest:123 - This is info message
+[logs/Android_Pixel_5 ERROR] 2023-08-13 10:37:45.415 BaseTest:124 - This is error message
+[logs/Android_Pixel_5 DEBUG] 2023-08-13 10:37:45.415 BaseTest:125 - This is debug message
+[logs/Android_Pixel_5 WARN ] 2023-08-13 10:37:45.415 BaseTest:126 - This is warning message
+[logs/Android_Pixel_5 INFO ] 2023-08-13 11:02:02.977 BaseTest:123 - This is info message
+[logs/Android_Pixel_5 ERROR] 2023-08-13 11:02:02.996 BaseTest:124 - This is error message
+[logs/Android_Pixel_5 DEBUG] 2023-08-13 11:02:02.996 BaseTest:125 - This is debug message
+[logs/Android_Pixel_5 WARN ] 2023-08-13 11:02:02.996 BaseTest:126 - This is warning message
+[logs/Android_Pixel_5 INFO ] 2023-08-13 11:06:03.825 BaseTest:123 - This is info message
+[logs/Android_Pixel_5 ERROR] 2023-08-13 11:06:03.844 BaseTest:124 - This is error message
+[logs/Android_Pixel_5 DEBUG] 2023-08-13 11:06:03.844 BaseTest:125 - This is debug message
+[logs/Android_Pixel_5 WARN ] 2023-08-13 11:06:03.844 BaseTest:126 - This is warning message
+[logs/Android_Pixel_5 INFO ] 2023-08-13 11:07:09.238 BaseTest:123 - This is info message
+[logs/Android_Pixel_5 ERROR] 2023-08-13 11:07:09.256 BaseTest:124 - This is error message
+[logs/Android_Pixel_5 DEBUG] 2023-08-13 11:07:09.257 BaseTest:125 - This is debug message
+[logs/Android_Pixel_5 WARN ] 2023-08-13 11:07:09.257 BaseTest:126 - This is warning message
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:17:33.745 BaseTest:187 - log path: logs/Android_Pixel_5
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:17:33.777 BaseTest:194 - load config.properties
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:17:33.781 BaseTest:199 - load strings/strings.xml
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:17:33.804 BaseTest:225 - appUrl is/Users/annprodous/TDDFrameworkAlt/src/test/resources/app/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:17:42.217 BaseTest:245 - driver initialized: AndroidDriver:  on ANDROID (669fbd8b-cd76-4e4a-a6b8-2e9bd35b0e3f)
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:17:43.363 LoginTests:65 - 
+****** starting test:invalidPassword******
+
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:17:45.694 BaseTest:286 - login with standard_user
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:17:47.499 BaseTest:286 - password is invalidpassword
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:17:48.660 BaseTest:275 - press login button
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:17:49.700 BaseTest:306 - error text is - Username and password do not match any user in this service.
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:17:51.314 LoginTests:65 - 
+****** starting test:invalidUserName******
+
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:17:52.453 BaseTest:286 - login with invalidusername
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:17:54.281 BaseTest:286 - password is secret_sauce
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:17:55.420 BaseTest:275 - press login button
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:17:55.973 BaseTest:306 - error text is - Username and password do not match any user in this service.
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:17:57.420 LoginTests:65 - 
+****** starting test:successfulLogin******
+
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:17:58.618 BaseTest:286 - login with standard_user
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:18:00.377 BaseTest:286 - password is secret_sauce
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:18:01.508 BaseTest:275 - press login button
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:18:02.854 BaseTest:306 - product page title is - PRODUCTS
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:18:05.433 ProductTests:71 - 
+****** starting test:validateProductOnProductDetailsPage******
+
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:18:06.158 BaseTest:286 - login with standard_user
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:18:07.395 BaseTest:286 - password is secret_sauce
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:18:08.534 BaseTest:275 - press login button
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:18:09.860 BaseTest:275 - press SLB tile link
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:18:11.071 BaseTest:306 - title is - Sauce Labs Backpack
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:18:14.253 BaseTest:306 - $29.99
+[logs/Android_Pixel_5 ERROR] 2023-08-16 14:18:14.264 TestListener:34 - java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Sauce Labs Backpack]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at com.qa.tests.ProductTests.validateProductOnProductDetailsPage(ProductTests.java:117)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:18:14.670 BaseTest:275 - press Settings button
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:18:18.949 ProductTests:71 - 
+****** starting test:validateProductOnProductsPage******
+
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:18:19.646 BaseTest:286 - login with standard_user
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:18:21.378 BaseTest:286 - password is secret_sauce
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:18:22.484 BaseTest:275 - press login button
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:18:23.720 BaseTest:306 - title is - Sauce Labs Backpack
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:18:23.818 BaseTest:306 - price is - $29.99
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:18:23.840 BaseTest:275 - press Settings button
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:18:32.504 BaseTest:144 - Appium server stopped
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:22:32.857 BaseTest:187 - log path: logs/Android_Pixel_5
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:22:32.898 BaseTest:194 - load config.properties
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:22:32.901 BaseTest:199 - load strings/strings.xml
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:22:32.920 BaseTest:225 - appUrl is/Users/annprodous/TDDFrameworkAlt/src/test/resources/app/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:22:43.759 BaseTest:245 - driver initialized: AndroidDriver:  on ANDROID (5867967b-5f2b-4b29-810c-1be4bd4d8eb6)
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:22:44.991 LoginTests:65 - 
+****** starting test:invalidPassword******
+
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:22:48.055 BaseTest:286 - login with standard_user
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:22:49.391 BaseTest:286 - password is invalidpassword
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:22:50.575 BaseTest:275 - press login button
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:22:51.842 BaseTest:306 - error text is - Username and password do not match any user in this service.
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:22:53.497 LoginTests:65 - 
+****** starting test:invalidUserName******
+
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:22:54.636 BaseTest:286 - login with invalidusername
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:22:56.414 BaseTest:286 - password is secret_sauce
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:22:57.564 BaseTest:275 - press login button
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:22:58.213 BaseTest:306 - error text is - Username and password do not match any user in this service.
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:22:59.758 LoginTests:65 - 
+****** starting test:successfulLogin******
+
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:23:00.789 BaseTest:286 - login with standard_user
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:23:02.568 BaseTest:286 - password is secret_sauce
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:23:03.704 BaseTest:275 - press login button
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:23:05.161 BaseTest:306 - product page title is - PRODUCTS
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:23:08.096 ProductTests:71 - 
+****** starting test:validateProductOnProductDetailsPage******
+
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:23:09.036 BaseTest:286 - login with standard_user
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:23:10.816 BaseTest:286 - password is secret_sauce
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:23:11.458 BaseTest:275 - press login button
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:23:12.788 BaseTest:275 - press SLB tile link
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:23:14.217 BaseTest:306 - title is - Sauce Labs Backpack
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:23:17.352 BaseTest:306 - $29.99
+[logs/Android_Pixel_5 ERROR] 2023-08-16 14:23:17.361 TestListener:34 - java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Sauce Labs Backpack]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at com.qa.tests.ProductTests.validateProductOnProductDetailsPage(ProductTests.java:117)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:23:17.822 BaseTest:275 - press Settings button
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:23:22.065 ProductTests:71 - 
+****** starting test:validateProductOnProductsPage******
+
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:23:22.782 BaseTest:286 - login with standard_user
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:23:24.514 BaseTest:286 - password is secret_sauce
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:23:25.628 BaseTest:275 - press login button
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:23:26.922 BaseTest:306 - title is - Sauce Labs Backpack
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:23:27.006 BaseTest:306 - price is - $29.99
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:23:27.031 BaseTest:275 - press Settings button
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:23:36.021 BaseTest:144 - Appium server stopped
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:26:12.365 BaseTest:187 - log path: logs/Android_Pixel_5
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:26:12.407 BaseTest:194 - load config.properties
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:26:12.410 BaseTest:199 - load strings/strings.xml
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:26:12.436 BaseTest:225 - appUrl is/Users/annprodous/TDDFrameworkAlt/src/test/resources/app/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:26:21.886 BaseTest:245 - driver initialized: AndroidDriver:  on ANDROID (fe60efec-f9ff-4afb-a05c-5c219a497f93)
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:26:23.280 LoginTests:65 - 
+****** starting test:invalidPassword******
+
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:26:26.070 BaseTest:286 - login with standard_user
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:26:27.916 BaseTest:286 - password is invalidpassword
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:26:29.086 BaseTest:275 - press login button
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:26:30.159 BaseTest:306 - error text is - Username and password do not match any user in this service.
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:26:31.820 LoginTests:65 - 
+****** starting test:invalidUserName******
+
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:26:32.950 BaseTest:286 - login with invalidusername
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:26:34.723 BaseTest:286 - password is secret_sauce
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:26:35.856 BaseTest:275 - press login button
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:26:36.499 BaseTest:306 - error text is - Username and password do not match any user in this service.
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:26:38.017 LoginTests:65 - 
+****** starting test:successfulLogin******
+
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:26:38.962 BaseTest:286 - login with standard_user
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:26:40.201 BaseTest:286 - password is secret_sauce
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:26:40.823 BaseTest:275 - press login button
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:26:42.188 BaseTest:306 - product page title is - PRODUCTS
+[logs/Android_Pixel_5 INFO ] 2023-08-16 14:26:47.238 BaseTest:144 - Appium server stopped
